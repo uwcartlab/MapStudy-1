@@ -576,7 +576,6 @@
 								"source": "https://api.mapbox.com/styles/v1/vinckl/cityvzq8p00882inzeisk6o24/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidmluY2tsIiwiYSI6InBxek03N1UifQ.U-SETItEW23RpzOykJX5Jw"
 							}
 						],
-						
 						"dataLayers": [
 							{
 								"roundTo": 0,
@@ -596,32 +595,33 @@
 								"techniques": [
 									{
 										"type": "dot",
-										"interval": 1,
+										"interval": 10,
 										"size": 3,
 										"showOnLegend": true,
 										"classes": "Greens.5"
 									}
 								]
 							},
-							{
+								{
 								"roundTo": 0,
 								"name": "Tweets",
 								"source": "data/details/c1_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
-									"fillOpacity": 0.8,
-									"color": "gray",
-									"stroke": "white",
-									"weight": 0.2,
-									"opacity": 1,
-									"minZoom": 10,
-									"maxZoom": 10
-								},
+								"fillOpacity": 0.8,
+								"color": "orange",
+								"stroke": "white",
+								"weight": 0.5,
+								"opacity": 1,
+								"minZoom": 7,
+								"maxZoom": 9
+							},
 								"renderOnLoad": true,
 								"techniques": [
 									{
-										"type": "choropleth",
-										"classification": "equal interval",
+										"type": "dot",
+										"interval": 10,
+										"size": 3,
 										"showOnLegend": true,
 										"classes": "Greens.5"
 									}
@@ -862,7 +862,7 @@
 								"techniques": [
 									{
 										"type": "heat",
-										"interval": 1,
+										"interval": 10,
 										"size": 1,
 										"showOnLegend": true
 									}
