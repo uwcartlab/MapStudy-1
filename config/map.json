@@ -583,11 +583,6 @@
 								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "orange",
-								"stroke": "white",
-								"weight": 0.5,
-								"opacity": 1,
 								"minZoom": 7,
 								"maxZoom": 9
 							},
@@ -595,36 +590,27 @@
 								"techniques": [
 									{
 										"type": "dot",
-										"interval": 10,
+										"interval": 20,
 										"size": 3,
-										"showOnLegend": true,
-										"classes": "Greens.5"
-									}
+										"showOnLegend": true									}
 								]
 							},
-								{
+							{
 								"roundTo": 0,
 								"name": "Tweets",
 								"source": "data/details/c1_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "orange",
-								"stroke": "white",
-								"weight": 0.5,
-								"opacity": 1,
-								"minZoom": 7,
-								"maxZoom": 9
+								"minZoom": 10,
+								"maxZoom": 10
 							},
 								"renderOnLoad": true,
 								"techniques": [
 									{
 										"type": "dot",
 										"interval": 10,
-										"size": 3,
-										"showOnLegend": true,
-										"classes": "Greens.5"
-									}
+										"size": 4,
+										"showOnLegend": true									}
 								]
 							},
 							{

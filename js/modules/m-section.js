@@ -327,8 +327,8 @@ var Dot = Backbone.Model.extend({
 					radius: this.get('size'),
 					weight: 0,
 					'stroke-width': 0,
-					fillColor: '#000',
-					fill: '#000',
+					fillColor: 'green',
+					fill: 'green',
 					fillOpacity: 1,
 					'fill-opacity': 1
 				};
