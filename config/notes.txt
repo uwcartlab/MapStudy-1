@@ -1,0 +1,9 @@
+Key:
+
+1 = Participant Consent Form
+2 = Thank You, Description, and Eligibility
+
+3 = Example Proportional Symbol
+4 = Example Choropleth
+5 = Example Dot Density
+6 = Example Heat Map
