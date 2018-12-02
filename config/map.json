@@ -844,10 +844,11 @@
 						],
 						
 						"dataLayers": [
+							
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/details/c1_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -862,35 +863,13 @@
 								"techniques": [
 									{
 										"type": "heat",
-										"interval": 10,
-										"size": 1,
-										"showOnLegend": true
-									}
-								]
-							},
-							{
-								"roundTo": 0,
-								"name": "Tweets",
-								"source": "data/details/c1_details.json",
-								"expressedAttribute": "tweets",
-								"layerOptions": {
-									"fillOpacity": 0.8,
-									"color": "gray",
-									"stroke": "white",
-									"weight": 0.2,
-									"opacity": 1,
-									"minZoom": 10,
-									"maxZoom": 10
-								},
-								"renderOnLoad": true,
-								"techniques": [
-									{
-										"type": "heat",
 										"interval": 1,
+										"size": 0.15,
 										"showOnLegend": true
 									}
 								]
 							},
+							
 							{
 								"roundTo": 0,
 								"name": "counties",

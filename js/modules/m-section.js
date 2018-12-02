@@ -274,6 +274,41 @@ var Heat = Isarithmic.extend({
 	defaults: {
 		techniqueType: 'heat'
 	},
+	polygonsToDots: function(interval){
+		var expressedAttribute = this.get('expressedAttribute'),
+			polygons = this.get('polygonFeatures') || this.get('features'),
+			interval = interval || this.get('interval'),
+			points = [];
+		_.each(polygons, function(polygon, i){
+			var n = Math.round(polygon.properties[expressedAttribute] / interval);
+			while (n--){
+				//get polygon bounding box
+				var bbox = turf.extent(polygon);
+				//generate points within bounding box until one falls within polygon
+				//processing time may be problematic, esp. for larger n values or more irregular features
+				var generatePoint = true;
+				while (generatePoint){
+					var point = turf.random('point', 1, {bbox: bbox});
+					point = point.features[0];
+					generatePoint = !turf.inside(point, polygon);
+				};
+				point.id = polygon.id || i;
+				point.properties = polygon.properties;
+				point.properties.layerOptions = {
+					radius: this.get('size'),
+					weight: 0,
+					'stroke-width': 0,
+					fillColor: '#000',
+					fill: '#000',
+					fillOpacity: 1,
+					'fill-opacity': 1
+				};
+				points.push(point);
+			};
+		}, this);
+		this.attributes.polygonFeatures = polygons;
+		this.attributes.features = points;
+	},
 	featuresToDataPoints: function(features, expressedAttribute){
 		//return data usable to leaflet-heatmap
 		var data = [];
@@ -293,7 +328,11 @@ var Heat = Isarithmic.extend({
 	symbolize: function(){
 		var technique = this.get('techniques')[this.get('techniqueIndex')],
 			size = technique.size || null;
+			interval = technique.interval || 10;
 		this.attributes.size = size;
+		this.attributes.interval = interval;
+		//this.polygonsToDots();
+			console.log(this);
 		this.setHeatmap(this);
 	}
 });
@@ -1814,17 +1853,20 @@ var LeafletMap = Backbone.View.extend({
 						points = tModel.featuresToDataPoints(features, expressedAttribute),
 						technique = tModel.get('techniques')[tModel.get('techniqueIndex')],
 						size = technique.size ? technique.size : 1;
+
+						console.log(points);
 					//leaflet heatmap layer data
 					var data = {
 						max: values[values.length-1],
 						data: points
 					};
+					console.log(expressedAttribute);
 					//leaflet heatmap layer config
 					var heatmapConfig = {
 						radius: size,
 						maxOpacity: 0.8,
 						scaleRadius: true,
-						useLocalExtrema: true,
+						useLocalExtrema: false,
 						latField: 'lat',
 						lngField: 'lng',
 						valueField: expressedAttribute
