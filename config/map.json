@@ -10,7 +10,7 @@
 			"page": 3,
 					"library": "Leaflet",
 					"mapOptions": {
-						"legend": true,
+						"legend": false,
 						"resetButton": true,
 						"center": [
 					    38.9,
@@ -18,7 +18,7 @@
 					  ],
 					  "zoom": 8,
 					  "minZoom": 8,
-					  "maxZoom": 10,
+					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
 					      43,
@@ -36,7 +36,6 @@
 								"source": "https://api.mapbox.com/styles/v1/vinckl/cityvzq8p00882inzeisk6o24/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidmluY2tsIiwiYSI6InBxek03N1UifQ.U-SETItEW23RpzOykJX5Jw"
 							}
 						],
-						
 						"dataLayers": [
 							{
 								"roundTo": 0,
@@ -79,8 +78,8 @@
 								"stroke": "white",
 								"weight": 0.5,
 								"opacity": 1,
-								"minZoom": 10,
-								"maxZoom": 10
+								"minZoom": 9,
+								"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
@@ -89,11 +88,11 @@
 										"classification": "equal interval",
 										"showOnLegend": true,
 										"classes": [
-											7.8,
-											11.1,
-											15.7,
-											22.2,
-											31.4
+											5.1,
+											7.3,
+											10.4,
+											14.7,
+											20.7
 										]
 									}
 								]
@@ -135,16 +134,16 @@
 								"fillOpacity": 1,
 								"color": "black",
 								"weight": 0.5,
-								"opacity": 0.5,
-								"minZoom": 10,
-								"maxZoom": 10
+								"opacity": 1,
+								"minZoom": 9,
+								"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
 										{
 											"type": "label",
 											"showOnLegend": false,
-											"size": 16
+											"size": 14
 										}
 								]
 							},
@@ -286,7 +285,7 @@
 			"page": 4,
 					"library": "Leaflet",
 					"mapOptions": {
-						"legend": true,
+						"legend": false,
 						"resetButton": true,
 						"center": [
 					    38.9,
@@ -294,7 +293,7 @@
 					  ],
 					  "zoom": 8,
 					  "minZoom": 8,
-					  "maxZoom": 10,
+					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
 					      43,
@@ -349,8 +348,8 @@
 									"stroke": "white",
 									"weight": 0.2,
 									"opacity": 1,
-									"minZoom": 10,
-									"maxZoom": 10
+									"minZoom": 9,
+									"maxZoom": 9
 								},
 								"renderOnLoad": true,
 								"techniques": [
@@ -399,9 +398,9 @@
 								"fillOpacity": 1,
 								"color": "black",
 								"weight": 0.5,
-								"opacity": 0.5,
-								"minZoom": 10,
-								"maxZoom": 10
+								"opacity": 1,
+								"minZoom": 9,
+								"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
