@@ -765,7 +765,7 @@
 			"page": 6,
 					"library": "Leaflet",
 					"mapOptions": {
-						"legend": true,
+						"legend": false,
 						"resetButton": true,
 						"center": [
 					    38.9,
@@ -773,7 +773,7 @@
 					  ],
 					  "zoom": 8,
 					  "minZoom": 8,
-					  "maxZoom": 10,
+					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
 					      43,
