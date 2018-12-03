@@ -499,7 +499,7 @@
 			"page": 5,
 					"library": "Leaflet",
 					"mapOptions": {
-						"legend": true,
+						"legend": false,
 						"resetButton": true,
 						"center": [
 					    38.9,
@@ -507,7 +507,7 @@
 					  ],
 					  "zoom": 8,
 					  "minZoom": 8,
-					  "maxZoom": 10,
+					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
 					      43,
@@ -544,7 +544,7 @@
 								"techniques": [
 									{
 										"type": "dot",
-										"interval": 10,
+										"interval": 15,
 										"size": 3,
 										"showOnLegend": true,
 										"classes": "Greens.5"
@@ -562,14 +562,14 @@
 								"stroke": "white",
 								"weight": 0.5,
 								"opacity": 1,
-								"minZoom": 7,
+								"minZoom": 9,
 								"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
 									{
 										"type": "dot",
-										"interval": 10,
+										"interval": 5,
 										"size": 3,
 										"showOnLegend": true,
 										"classes": "Greens.5"
