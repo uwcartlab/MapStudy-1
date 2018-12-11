@@ -191,7 +191,6 @@ svg {
     margin: 0;
     padding: 1em;
     display: inline-block;
-    width: 45%;
     clear: both;
     vertical-align: top;
 }
@@ -200,10 +199,12 @@ svg {
     height: 650px; /* temporary height to allow for map layer placement */
     text-align: center;
     border-right: 10px solid #ccc;
+    width: 60%;
 }
 
 #q {
     overflow: auto;
+    width: 40%;
 }
 
 #map {

@@ -95,7 +95,7 @@
 								"source": "data/counties/c1_counties.json",
 								"layerOptions": {
 									"fillOpacity": 0.8,
-									"color": "green",
+									"color": "black",
 									"stroke": "white",
 									"weight": 2,
 									"opacity": 1,
@@ -126,9 +126,8 @@
 									"color": "black",
 									"weight": 0.5,
 									"opacity": 1,
-									"zoom": 7,
 									"minZoom": 7,
-									"maxZoom": 9
+									"maxZoom": 8
 							},
 								"renderOnLoad": true,
 								"techniques": [
@@ -149,7 +148,7 @@
 									],
 								"layerOptions": {
 								"fillOpacity": 1,
-								"color": "red",
+								"color": "black",
 								"weight": 0.5,
 								"opacity": 1,
 								"minZoom": 9,
