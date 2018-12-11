@@ -89,19 +89,19 @@
 									}
 								]
 							},
-							{
+				{
 								"roundTo": 0,
 								"name": "Tweets",
 								"source": "data/counties/c1_counties.json",
 								"layerOptions": {
-									"fillOpacity": 0.8,
-									"color": "black",
-									"stroke": "white",
-									"weight": 2,
-									"opacity": 1,
-									"zoom": 8,
-									"minZoom": 9,
-									"maxZoom": 9
+								"fillOpacity": 0.8,
+								"color": "black",
+								"stroke": "white",
+								"weight": 2,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
@@ -127,7 +127,7 @@
 									"weight": 0.5,
 									"opacity": 1,
 									"minZoom": 7,
-									"maxZoom": 8
+									"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
@@ -140,27 +140,27 @@
 							},
 							{
 								"roundTo": 0,
-								"name": "countiesZoomed",
+								"name": "counties",
 								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
-										"NAMELSAD10"
-									],
+									"NAMELSAD10"
+								],
 								"layerOptions": {
-								"fillOpacity": 1,
-								"color": "black",
-								"weight": 0.5,
-								"opacity": 1,
-								"minZoom": 9,
-								"maxZoom": 9
+									"fillOpacity": 1,
+									"color": "black",
+									"weight": 0.5,
+									"opacity": 1,
+									"minZoom": 9,
+									"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
-										{
-											"type": "label",
-											"showOnLegend": false,
-											"size": 14
-										}
+									{
+										"type": "label",
+										"showOnLegend": false,
+										"size": 12
+									}
 								]
 							},
 							{
@@ -169,7 +169,7 @@
 								"source": "data/Cities.json",
 								"expressedAttribute": "lat",
 								"layerOptions": {
-									"fillOpacity": 1,
+									"fillOpacity": 0.8,
 									"color": "black",
 									"weight": 0.5,
 									"opacity": 1,
@@ -195,15 +195,15 @@
 								"source": "data/Cities.json",
 								"expressedAttribute": "lat",
 								"layerOptions": {
-									"fillOpacity": 1,
+									"fillOpacity": 0.8,
 									"color": "black",
-									"weight": 0.5,
+									"weight": 1,
 									"opacity": 1,
 									"minZoom": 9,
 									"maxZoom": 9
 							},
 								"renderOnLoad": true,
-								"techniques": [
+									"techniques": [
 										{
 											"type": "proportional symbol",
 											"classification": "equal interval",
@@ -214,8 +214,8 @@
 											]
 										}
 									]
-							},
-							{
+								},
+								{
 									"name": "cityLabels",
 									"source": "data/Cities.json",
 									"expressedAttribute": "city",
@@ -225,10 +225,10 @@
 									"layerOptions": {
 									"fillOpacity": 1,
 									"color": "black",
-									"weight": 1,
+									"weight": 0.5,
 									"opacity": 1,
 									"minZoom": 7,
-									"maxZoom": 8
+									"maxZoom": 9
 								},
 									"renderOnLoad": true,
 									"techniques": [
@@ -240,7 +240,7 @@
 									]
 								},
 								{
-									"name": "cityLabelsZoomed",
+									"name": "cityLabels",
 									"source": "data/Cities.json",
 									"expressedAttribute": "city",
 									"displayAttributes": [
@@ -248,8 +248,8 @@
 									],
 									"layerOptions": {
 									"fillOpacity": 1,
-									"color": "red",
-									"weight": 1,
+									"color": "black",
+									"weight": 0.5,
 									"opacity": 1,
 									"minZoom": 9,
 									"maxZoom": 9
@@ -693,29 +693,78 @@
 									}
 								]
 							},
-							{
+					{
 								"roundTo": 0,
-								"name": "countiesZoomed",
+								"name": "Tweets",
 								"source": "data/counties/c1_counties.json",
-								"expressedAttribute": "tweets",
-								"displayAttributes": [
-										"NAMELSAD10"
-									],
 								"layerOptions": {
-								"fillOpacity": 1,
+								"fillOpacity": 0.8,
 								"color": "black",
-								"weight": 0.5,
-								"opacity": 0.5,
-								"minZoom": 10,
-								"maxZoom": 10
+								"stroke": "white",
+								"weight": 2,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
-										{
-											"type": "label",
-											"showOnLegend": false,
-											"size": 16
-										}
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
+								"name": "counties",
+								"source": "data/counties/c1_counties.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": [
+									"NAMELSAD10"
+								],
+								"layerOptions": {
+									"fillOpacity": 1,
+									"color": "black",
+									"weight": 0.5,
+									"opacity": 1,
+									"minZoom": 7,
+									"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "label",
+										"showOnLegend": false,
+										"size": 12
+									}
+								]
+							},
+							{
+								"roundTo": 0,
+								"name": "counties",
+								"source": "data/counties/c1_counties.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": [
+									"NAMELSAD10"
+								],
+								"layerOptions": {
+									"fillOpacity": 1,
+									"color": "black",
+									"weight": 0.5,
+									"opacity": 1,
+									"minZoom": 9,
+									"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "label",
+										"showOnLegend": false,
+										"size": 12
+									}
 								]
 							},
 							{
@@ -754,8 +803,8 @@
 									"color": "black",
 									"weight": 1,
 									"opacity": 1,
-									"minZoom": 10,
-									"maxZoom": 10
+									"minZoom": 9,
+									"maxZoom": 9
 							},
 								"renderOnLoad": true,
 									"techniques": [
@@ -795,7 +844,7 @@
 									]
 								},
 								{
-									"name": "cityLabelsZoomed",
+									"name": "cityLabels",
 									"source": "data/Cities.json",
 									"expressedAttribute": "city",
 									"displayAttributes": [
@@ -806,15 +855,15 @@
 									"color": "black",
 									"weight": 0.5,
 									"opacity": 1,
-									"minZoom": 10,
-									"maxZoom": 10
-									},
+									"minZoom": 9,
+									"maxZoom": 9
+								},
 									"renderOnLoad": true,
 									"techniques": [
 										{
 											"type": "label",
 											"showOnLegend": false,
-											"size": 16
+											"size": 10
 										}
 									]
 								}
@@ -910,7 +959,30 @@
 									}
 								]
 							},
-							
+				{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/counties/c1_counties.json",
+								"layerOptions": {
+								"fillOpacity": 0.8,
+								"color": "black",
+								"stroke": "white",
+								"weight": 2,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
 							{
 								"roundTo": 0,
 								"name": "counties",
@@ -938,27 +1010,27 @@
 							},
 							{
 								"roundTo": 0,
-								"name": "countiesZoomed",
+								"name": "counties",
 								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
-										"NAMELSAD10"
-									],
+									"NAMELSAD10"
+								],
 								"layerOptions": {
-								"fillOpacity": 1,
-								"color": "black",
-								"weight": 0.5,
-								"opacity": 0.5,
-								"minZoom": 10,
-								"maxZoom": 10
+									"fillOpacity": 1,
+									"color": "black",
+									"weight": 0.5,
+									"opacity": 1,
+									"minZoom": 9,
+									"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
-										{
-											"type": "label",
-											"showOnLegend": false,
-											"size": 16
-										}
+									{
+										"type": "label",
+										"showOnLegend": false,
+										"size": 12
+									}
 								]
 							},
 							{
@@ -997,8 +1069,8 @@
 									"color": "black",
 									"weight": 1,
 									"opacity": 1,
-									"minZoom": 10,
-									"maxZoom": 10
+									"minZoom": 9,
+									"maxZoom": 9
 							},
 								"renderOnLoad": true,
 									"techniques": [
@@ -1038,7 +1110,7 @@
 									]
 								},
 								{
-									"name": "cityLabelsZoomed",
+									"name": "cityLabels",
 									"source": "data/Cities.json",
 									"expressedAttribute": "city",
 									"displayAttributes": [
@@ -1049,15 +1121,15 @@
 									"color": "black",
 									"weight": 0.5,
 									"opacity": 1,
-									"minZoom": 10,
-									"maxZoom": 10
-									},
+									"minZoom": 9,
+									"maxZoom": 9
+								},
 									"renderOnLoad": true,
 									"techniques": [
 										{
 											"type": "label",
 											"showOnLegend": false,
-											"size": 16
+											"size": 10
 										}
 									]
 								}
