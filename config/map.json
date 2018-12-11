@@ -36,38 +36,29 @@
 								"source": "https://api.mapbox.com/styles/v1/vinckl/cityvzq8p00882inzeisk6o24/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidmluY2tsIiwiYSI6InBxek03N1UifQ.U-SETItEW23RpzOykJX5Jw"
 							}
 						],
-						"dataLayers": [
-							{
-								"roundTo": 0,
-								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
-								"expressedAttribute": "tweets",
-								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "green",
-								"stroke": "white",
-								"weight": 0.5,
-								"opacity": 1,
-								"zoom": 8,
-								"minZoom": 7,
-								"maxZoom": 8
-							},
-								"renderOnLoad": true,
-								"techniques": [
-									{
-										"type": "proportional symbol",
-										"classification": "equal interval",
-										"showOnLegend": true,
-										"classes": [
-											7.8,
-											11.1,
-											15.7,
-											22.2,
-											31.4
-										]
-									}
-								]
-							},
+					"dataLayers": [
+					        {	
+					        	"roundTo": 0,
+					          	"name": "Tweets",
+					          	"source": "data/counties/c1_counties.json",
+					          	"expressedAttribute": "tweets",
+					          	"layerOptions": {
+						            "fillOpacity": 1,
+						            "color": "blue",
+						            "weight": 0.5,
+						            "opacity": 1
+					          },
+					          "renderOnLoad": true,
+					          "techniques": [
+					            {
+						            "type": "proportional symbol",
+						            "classification": "equal interval",
+						            "classes": [7.8,11.1,15.7,22.2,31.4],
+									"minZoom": 6,
+									"maxZoom": 7
+					            }
+					          ]
+					        },
 							{
 								"roundTo": 0,
 								"name": "Tweets",
@@ -79,7 +70,6 @@
 								"stroke": "white",
 								"weight": 0.5,
 								"opacity": 1,
-								"zoom": 9,
 								"minZoom": 9,
 								"maxZoom": 9
 							},
@@ -104,14 +94,14 @@
 								"name": "Tweets",
 								"source": "data/counties/c1_counties.json",
 								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "black",
-								"stroke": "white",
-								"weight": 2,
-								"opacity": 1,
-								"zoom": 8,
-								"minZoom": 9,
-								"maxZoom": 9
+									"fillOpacity": 0.8,
+									"color": "green",
+									"stroke": "white",
+									"weight": 2,
+									"opacity": 1,
+									"zoom": 8,
+									"minZoom": 9,
+									"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
