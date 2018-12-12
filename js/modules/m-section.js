@@ -1944,7 +1944,7 @@ var LeafletMap = Backbone.View.extend({
 			dataLayerModel.attributes.renderOnLoad = dataLayerModel.attributes.renderOnLoad || true;
 			if (i==0 && dataLayerModel.get('renderOnLoad')){
 				leafletDataLayer.show = true;
-				if (mapZoom > overlayOptions.minZoom && mapZoom < overlayOptions.maxZoom){
+				if (mapZoom >= overlayOptions.minZoom && mapZoom <= overlayOptions.maxZoom){
 					//add layer to map
 					leafletDataLayer.addTo(map);
 					this.firstLayers[layerId] = leafletDataLayer;
