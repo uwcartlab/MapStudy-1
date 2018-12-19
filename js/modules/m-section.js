@@ -331,8 +331,7 @@ var Heat = Isarithmic.extend({
 			interval = technique.interval || 10;
 		this.attributes.size = size;
 		this.attributes.interval = interval;
-		//this.polygonsToDots();
-			console.log(this);
+		this.polygonsToDots();
 		this.setHeatmap(this);
 	}
 });
@@ -1854,7 +1853,6 @@ var LeafletMap = Backbone.View.extend({
 						technique = tModel.get('techniques')[tModel.get('techniqueIndex')],
 						size = technique.size ? technique.size : 1;
 
-						console.log(points);
 					//leaflet heatmap layer data
 					var data = {
 						max: values[values.length-1],
@@ -1864,6 +1862,7 @@ var LeafletMap = Backbone.View.extend({
 					//leaflet heatmap layer config
 					var heatmapConfig = {
 						radius: size,
+						minOpacity: 0.1,
 						maxOpacity: 0.8,
 						scaleRadius: true,
 						useLocalExtrema: false,
