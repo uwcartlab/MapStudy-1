@@ -992,6 +992,30 @@
 							},
 							{
 								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/counties/c1_counties.json",
+								"layerOptions": {
+								"fillOpacity": 0.8,
+								"color": "black",
+								"stroke": "white",
+								"weight": 2,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
 								"name": "counties",
 								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
