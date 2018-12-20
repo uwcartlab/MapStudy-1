@@ -3,7 +3,7 @@
 "features": [
 { "type": "Feature", "properties": { "city": "St. Francis", "lat": 39.7742, "long": -101.8009 }, "geometry": { "type": "Point", "coordinates": [ -101.781843853459975, 39.59997237449118 ] } },
 { "type": "Feature", "properties": { "city": "Atwood", "lat": 39.8067, "long": -101.0421 }, "geometry": { "type": "Point", "coordinates": [ -101.150992265943017, 39.882924586160108 ] } },
-{ "type": "Feature", "properties": { "city": "Oberlin", "lat": 39.8183, "long": -100.5282 }, "geometry": { "type": "Point", "coordinates": [ -100.579923826322926, 39.785632320217097 ] } },
+{ "type": "Feature", "properties": { "city": "Oberlin", "lat": 39.8183, "long": -100.5282 }, "geometry": { "type": "Point", "coordinates": [ -100.549210157435354, 39.70745207213961 ] } },
 { "type": "Feature", "properties": { "city": "Smith", "lat": 39.8339, "long": -99.8915 }, "geometry": { "type": "Point", "coordinates": [ -100.231788331071911, 39.678728521031211 ] } },
 { "type": "Feature", "properties": { "city": "Jackson", "lat": 39.7561, "long": -99.324 }, "geometry": { "type": "Point", "coordinates": [ -99.694233704206255, 39.878603799185882 ] } },
 { "type": "Feature", "properties": { "city": "Stockton", "lat": 39.4381, "long": -99.2651 }, "geometry": { "type": "Point", "coordinates": [ -99.354936119402979, 39.451711533242872 ] } },

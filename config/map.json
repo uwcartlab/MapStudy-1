@@ -125,7 +125,6 @@
 								"roundTo": 0,
 								"name": "counties",
 								"source": "data/counties/c1_counties.json",
-								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
 								],
