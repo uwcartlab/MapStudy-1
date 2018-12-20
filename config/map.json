@@ -79,7 +79,7 @@
 								"weight": 0.5,
 								"opacity": 1,
 								"minZoom": 9,
-								"maxZoom": 10
+								"maxZoom": 9
 							},
 								"renderOnLoad": true,
 								"techniques": [
