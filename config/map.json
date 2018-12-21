@@ -21,12 +21,12 @@
 					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
-					      43,
-					      -110
+					      37.7,
+					      -102.2
 					    ],
 					    [
-					      30,
-					      -90
+					      40.1,
+					      -99
 					    ]
 					  ]
 					},
@@ -99,30 +99,6 @@
 							},
 							{
 								"roundTo": 0,
-								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
-								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "black",
-								"stroke": "white",
-								"weight": 2,
-								"opacity": 1,
-								"zoom": 8,
-								"minZoom": 9,
-								"maxZoom": 9
-							},
-								"renderOnLoad": true,
-								"techniques": [
-									{
-										"type": "choropleth",
-										"classification": "equal interval",
-										"showOnLegend": true,
-										"classes": "Greens.5"
-									}
-								]
-							},
-							{
-								"roundTo": 0,
 								"name": "counties",
 								"source": "data/counties/c1_counties.json",
 								"displayAttributes": [
@@ -269,7 +245,59 @@
 											"size": 10
 										}
 									]
-								}
+								},
+								{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/counties/c1_counties.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["NAME10","tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 8,
+								"maxZoom": 8
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/details/c1_details.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.0001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							}
 							],
 
 						"interactions": {
@@ -290,7 +318,7 @@
 									"doubleClick": true,
 									"box": true,
 									"keyboard": true,
-									"widget": false
+									"widget": true
 								}
 							},
 							"pan": {
@@ -319,12 +347,12 @@
 					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
-					      43,
-					      -110
+					      37.7,
+					      -102.2
 					    ],
 					    [
-					      30,
-					      -90
+					      40.1,
+					      -99
 					    ]
 					  ]
 					},
@@ -357,7 +385,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.5"
+										"classes": "Greens.9"
 									}
 								]
 							},
@@ -382,31 +410,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.5"
-									}
-								]
-							},
-							{
-								"roundTo": 0,
-								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
-								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "black",
-								"stroke": "white",
-								"weight": 2,
-								"opacity": 1,
-								"zoom": 8,
-								"minZoom": 9,
-								"maxZoom": 9
-							},
-								"renderOnLoad": true,
-								"techniques": [
-									{
-										"type": "choropleth",
-										"classification": "equal interval",
-										"showOnLegend": true,
-										"classes": "Greens.5"
+										"classes": "Greens.9"
 									}
 								]
 							},
@@ -559,7 +563,59 @@
 											"size": 10
 										}
 									]
-								}
+								},
+								{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/counties/c1_counties.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["NAME10","tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 8,
+								"maxZoom": 8
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/details/c1_details.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.0001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							}
 							],
 
 						"interactions": {
@@ -580,7 +636,7 @@
 									"doubleClick": true,
 									"box": true,
 									"keyboard": true,
-									"widget": false
+									"widget": true
 								}
 							},
 							"pan": {
@@ -609,12 +665,12 @@
 					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
-					      43,
-					      -110
+					      37.7,
+					      -102.2
 					    ],
 					    [
-					      30,
-					      -90
+					      40.1,
+					      -99
 					    ]
 					  ]
 					},
@@ -677,6 +733,58 @@
 							},
 							{
 								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/counties/c1_counties.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["NAME10","tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 8,
+								"maxZoom": 8
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/details/c1_details.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.0001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
 								"name": "counties",
 								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
@@ -697,30 +805,6 @@
 										"type": "label",
 										"showOnLegend": false,
 										"size": 12
-									}
-								]
-							},
-					{
-								"roundTo": 0,
-								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
-								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "black",
-								"stroke": "white",
-								"weight": 2,
-								"opacity": 1,
-								"zoom": 8,
-								"minZoom": 9,
-								"maxZoom": 9
-							},
-								"renderOnLoad": true,
-								"techniques": [
-									{
-										"type": "choropleth",
-										"classification": "equal interval",
-										"showOnLegend": true,
-										"classes": "Greens.5"
 									}
 								]
 							},
@@ -873,7 +957,59 @@
 											"size": 10
 										}
 									]
-								}
+								},
+								{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/counties/c1_counties.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["NAME10","tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 8,
+								"maxZoom": 8
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/details/c1_details.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.0001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							}
 							],
 
 						"interactions": {
@@ -894,7 +1030,7 @@
 									"doubleClick": true,
 									"box": true,
 									"keyboard": true,
-									"widget": false
+									"widget": true
 								}
 							},
 							"pan": {
@@ -924,14 +1060,15 @@
 					  "maxZoom": 9,
 					  "maxBounds": [
 					    [
-					      43,
-					      -110
+					      37.7,
+					      -102.2
 					    ],
 					    [
-					      30,
-					      -90
+					      40.1,
+					      -99
 					    ]
-					  ]
+					  ],
+					  "maxBoundsViscosity":0.4
 					},
 					"baseLayers": [
 							{
@@ -966,54 +1103,6 @@
 									}
 								]
 							},
-				{
-								"roundTo": 0,
-								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
-								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "black",
-								"stroke": "white",
-								"weight": 2,
-								"opacity": 1,
-								"zoom": 8,
-								"minZoom": 9,
-								"maxZoom": 9
-							},
-								"renderOnLoad": true,
-								"techniques": [
-									{
-										"type": "choropleth",
-										"classification": "equal interval",
-										"showOnLegend": true,
-										"classes": "Greens.5"
-									}
-								]
-							},
-							{
-								"roundTo": 0,
-								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
-								"layerOptions": {
-								"fillOpacity": 0.8,
-								"color": "black",
-								"stroke": "white",
-								"weight": 2,
-								"opacity": 1,
-								"zoom": 8,
-								"minZoom": 9,
-								"maxZoom": 9
-							},
-								"renderOnLoad": true,
-								"techniques": [
-									{
-										"type": "choropleth",
-										"classification": "equal interval",
-										"showOnLegend": true,
-										"classes": "Greens.5"
-									}
-								]
-							},
 							{
 								"roundTo": 0,
 								"name": "counties",
@@ -1163,7 +1252,59 @@
 											"size": 10
 										}
 									]
-								}
+								},
+								{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/counties/c1_counties.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["NAME10","tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 8,
+								"maxZoom": 8
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							},
+							{
+								"roundTo": 0,
+								"name": "Tweets",
+								"source": "data/details/c1_details.json",
+								"expressedAttribute": "tweets",
+								"displayAttributes": ["tweets"],
+								"layerOptions": {
+								"fillOpacity": 0.0001,
+								"color": "black",
+								"stroke": "white",
+								"weight": 0.0001,
+								"opacity": 1,
+								"zoom": 8,
+								"minZoom": 9,
+								"maxZoom": 9
+							},
+								"renderOnLoad": true,
+								"techniques": [
+									{
+										"type": "choropleth",
+										"classification": "equal interval",
+										"showOnLegend": true,
+										"classes": "Greens.5"
+									}
+								]
+							}
 							],
 
 						"interactions": {
@@ -1184,7 +1325,7 @@
 									"doubleClick": true,
 									"box": true,
 									"keyboard": true,
-									"widget": false
+									"widget": true
 								}
 							},
 							"pan": {

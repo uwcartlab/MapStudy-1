@@ -1790,10 +1790,23 @@ var LeafletMap = Backbone.View.extend({
 			var popupContent = "<table>";
 			if (dataLayerModel.attributes.displayAttributes){
 				dataLayerModel.get('displayAttributes').forEach(function(attr){
+
+				//custom formatting
+				if(attr=="NAME10"){
+					popupContent += "<tr><td class='attr'>"+feature.properties[attr]+"</td></tr>";
+				}else{
+					popupContent += "<tr><td>"+feature.properties[attr]+" tweets about pizza</td></tr>";
+				}
+				
+
+				/* old version
+
 					popupContent += _.template($('#popup-line-template').html())({
 						attribute: attr,
 						value: feature.properties[attr]
-					});
+					});*/
+
+
 				});
 			} else {
 				var attr = dataLayerModel.get('expressedAttribute');
@@ -1801,6 +1814,25 @@ var LeafletMap = Backbone.View.extend({
 			};
 			popupContent += "</table>";
 			layer.bindPopup(popupContent);
+
+			//add highlight popups
+			var highlight_Popup = true;
+			
+			/*
+			if(highlight_Popup){
+			layer.on("click", function(e){
+				console.log(e);
+				console.log(layer._eventParents);
+			
+			  // Style selected
+			  layer.setStyle({
+			    color: '#f2dea2',
+			    weight: 3
+			  })
+			});
+			}
+*/
+
 			if (retrieveEvent == 'hover'){
 				layer.on({
 					mouseover: function(){

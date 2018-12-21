@@ -196,10 +196,44 @@
 					]
 				}
 			]
+		},
+		{
+			"page": 7,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "A text question for Page 5",
+							"ask": "This is Page 5.",
+							"description": "You should only include a submit button on the second-to-last page. That way, the user will see a final ending page. If the app is configured to e-mail data, an e-mail will be sent each time the submit button is clicked.",
+							"input": {
+								"type": "text"
+							}
+						}
+					],
+					"buttons": [
+						"back",
+						"submit"
+					]
+				}
+			]
+		},
+		{
+			"page": 8,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Page 6",
+							"ask": "Thank you for taking this survey. You really rock.",
+							"description": "Because this set has no buttons, the participant will not be able to navigate to a different part of the survey."
+						}
+					]
+				}
+			]
 		}
-
-
-
 
 	]
 }
