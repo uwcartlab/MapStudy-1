@@ -6,7 +6,7 @@ require('../config/param.php');
 $post_data = file_get_contents("php://input");
 $post_data = json_decode($post_data, TRUE);
 
-// echo var_dump($post_data);
+echo var_dump($post_data);
 
 //insert data into database if used
 if (isset($dbtype, $dbhost, $dbport, $dbname, $dbuser, $dbpassword)){

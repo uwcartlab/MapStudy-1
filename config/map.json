@@ -53,7 +53,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -78,7 +78,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -371,7 +371,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -396,7 +396,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -689,7 +689,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -714,7 +714,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -1007,7 +1007,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -1032,7 +1032,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": "Greens.5"
 									}
 								]
 							},
@@ -1306,7 +1306,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -1331,7 +1331,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c2_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -1356,7 +1356,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -1382,7 +1382,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c2_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -1408,7 +1408,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1433,7 +1433,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1458,7 +1458,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1583,7 +1583,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -1609,7 +1609,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c2_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {

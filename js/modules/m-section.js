@@ -214,6 +214,9 @@ var ProportionalSymbol = Choropleth.extend({
 		return {
 			radius: scale(parseFloat(feature.properties[expressedAttribute]))
 		};
+	},
+	setSymbol(symbol){
+		this.attributes.symbol =symbol;
 	}
 });
 
@@ -1924,6 +1927,7 @@ var LeafletMap = Backbone.View.extend({
 
 			//special processing for prop symbol maps
 			if (technique.type == 'proportional symbol'){
+				techniqueModel.setSymbol(technique.symbol);
 				//implement pointToLayer conversion for proportional symbol maps
 				function pointToLayer(feature, latlng){
 					var markerOptions = style(feature);
