@@ -11,6 +11,10 @@
 							"ask": "chor-_C1_1"
 						},
 						{
+							"ask": "tes",
+							"image": "img/smile.png"
+						},
+						{
 							"ask": "Which city had the most tweets?",
 							"input": {
 								"required": false,
@@ -1283,10 +1287,47 @@
 									}
 								}						
 							}
+					},
+					{
+						"page": 19,
+						"fullpage": false,
+						"sets": [
+							{
+						          "blocks": [
+									{
+										"title": "Test Map",
+										"ask": "Dummy Data"
+									},
+									{
+										"ask": "Which city had the most tweets?",
+										"input": {
+											"required": false,
+											"autoadvance": false,
+											"type": "matrix",
+											"options": [
+													{
+														"text": "Garden City"
+													},
+													{
+														"text": "Hays"
+													},
+													{
+														"text": "Ness City"
+													}
+												],
+											"items": [
+												{
+
+												}
+											]
+										}
+									}
+								],
+								"buttons": [
+									"next"
+								]
+							}
+						]
 					}
-
-
-
-
 	]
 }
