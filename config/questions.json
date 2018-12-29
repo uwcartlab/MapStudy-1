@@ -8,7 +8,7 @@
 			          "blocks": [
 						{
 							"title": "MAP 1",
-							"ask": "chor-_C1_1"
+							"ask": "Distribution: chor-_C3_1"
 						},
 						{
 							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -53,7 +53,11 @@
 					"blocks": [
 						{
 							"title": "MAP 2",
-							"ask": "chor-_L2_2"
+							"ask": "Distribution: chor-_L3_2"
+						},
+						{
+							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -94,7 +98,11 @@
 					"blocks": [
 						{
 							"title": "MAP 3",
-							"ask": "chor-_T3_3"
+							"ask": "Distribution: chor-_T2_3"
+						},
+						{
+							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -135,7 +143,11 @@
 					"blocks": [
 						{
 							"title": "MAP 4",
-							"ask": "chor-_U4_4"
+							"ask": "Distribution: chor-_U2_4"
+						},
+						{
+							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -176,7 +188,11 @@
 					"blocks": [
 						{
 							"title": "MAP 5",
-							"ask": "dotd-_C2_2"
+							"ask": "Distribution: dotd-_C2_2"
+						},
+						{
+							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -217,7 +233,11 @@
 					"blocks": [
 						{
 							"title": "MAP 6",
-							"ask": "dotd-_L3_4"
+							"ask": "Distribution: dotd-_L2_4"
+						},
+						{
+							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -258,7 +278,11 @@
 					"blocks": [
 						{
 							"title": "MAP 7",
-							"ask": "dotd-_T4_1"
+							"ask": "Distribution: dotd-_T1_1"
+						},
+						{
+							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -299,7 +323,11 @@
 					"blocks": [
 						{
 							"title": "MAP 8",
-							"ask": "dotd-_U1_3"
+							"ask": "Distribution: dotd-_U1_3"
+						},
+						{
+							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -340,7 +368,11 @@
 					"blocks": [
 						{
 							"title": "MAP 9",
-							"ask": "heat-_C3_4"
+							"ask": "Distribution: heat-_C1_4"
+						},
+						{
+							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -381,7 +413,11 @@
 					"blocks": [
 						{
 							"title": "MAP 10",
-							"ask": "heat-_L4_3"
+							"ask": "Distribution: heat-_L1_3"
+						},
+						{
+							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -422,7 +458,11 @@
 					"blocks": [
 						{
 							"title": "MAP 11",
-							"ask": "heat-_T1_2"
+							"ask": "Distribution: heat-_T4_2"
+						},
+						{
+							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -463,7 +503,11 @@
 					"blocks": [
 						{
 							"title": "MAP 12",
-							"ask": "heat-_U2_1"
+							"ask": "Distribution: heat-_U4_1"
+						},
+						{
+							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -504,7 +548,11 @@
 					"blocks": [
 						{
 							"title": "MAP 13",
-							"ask": "prop-_C4_3"
+							"ask": "Distribution: prop-_C4_3"
+						},
+						{
+							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -545,7 +593,11 @@
 					"blocks": [
 						{
 							"title": "MAP 14",
-							"ask": "prop-_L1_1"
+							"ask": "Distribution: prop-_L4_1"
+						},
+						{
+							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -586,7 +638,11 @@
 					"blocks": [
 						{
 							"title": "MAP 15",
-							"ask": "prop-_T2_4"
+							"ask": "Distribution: prop-_T3_4"
+						},
+						{
+							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -627,7 +683,11 @@
 					"blocks": [
 						{
 							"title": "MAP 16",
-							"ask": "prop-_U3_2"
+							"ask": "Distribution: prop-_U3_2"
+						},
+						{
+							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
+							"image": "data/smile.png"
 						},
 						{
 							"ask": "Which city had the most tweets?",
@@ -704,8 +764,8 @@
 							{
 						          "blocks": [
 									{
-										"title": "Test Map",
-										"ask": "Dummy Data"
+										"title": "Map 0",
+										"ask": "Fabricated Data"
 									},
 									{
 										"ask": "Which city had the most tweets?",
