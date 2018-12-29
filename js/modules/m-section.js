@@ -1897,7 +1897,7 @@ var LeafletMap = Backbone.View.extend({
 					//leaflet heatmap layer config
 					var heatmapConfig = {
 						radius: size,
-						minOpacity: 0.1,
+						minOpacity: 0.8,
 						maxOpacity: 0.8,
 						scaleRadius: true,
 						useLocalExtrema: false,
