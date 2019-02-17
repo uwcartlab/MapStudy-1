@@ -1,9 +1,9 @@
 <?PHP
 $dbtype = 'pgsql';
-$dbhost = '144.92.235.239';
+$dbhost = '24.183.127.196';
 $dbport = '5432';
-$dbname = 'mapstudy';
-$dbuser = 'mapstudy';
-$dbpassword = 'MQKg%eMkdY!R%2';
+$dbname = 'postgres';
+$dbuser = 'nick';
+$dbpassword = 'tiger123';
 ?>
 

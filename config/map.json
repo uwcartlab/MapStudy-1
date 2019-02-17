@@ -35,7 +35,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c3_counties.json",
+								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -60,7 +60,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c3_details.json",
+								"source": "data/details/c1_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 									"fillOpacity": 0.8,
@@ -85,7 +85,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c3_counties.json",
+								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -110,7 +110,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c3_counties.json",
+								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -235,7 +235,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c3_counties.json",
+								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -261,7 +261,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c3_details.json",
+								"source": "data/details/c1_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -353,7 +353,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l3_counties.json",
+								"source": "data/counties/l2_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -378,7 +378,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l3_details.json",
+								"source": "data/details/l2_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 									"fillOpacity": 0.8,
@@ -403,7 +403,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l3_counties.json",
+								"source": "data/counties/l2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -428,7 +428,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l3_counties.json",
+								"source": "data/counties/l2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -553,7 +553,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l3_counties.json",
+								"source": "data/counties/l2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -579,7 +579,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l3_details.json",
+								"source": "data/details/l2_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -671,7 +671,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t2_counties.json",
+								"source": "data/counties/t3_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -696,7 +696,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t2_details.json",
+								"source": "data/details/t3_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 									"fillOpacity": 0.8,
@@ -721,7 +721,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t2_counties.json",
+								"source": "data/counties/t3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -746,7 +746,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t2_counties.json",
+								"source": "data/counties/t3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -871,7 +871,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t2_counties.json",
+								"source": "data/counties/t3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -897,7 +897,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t2_details.json",
+								"source": "data/details/t3_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -989,7 +989,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/u2_counties.json",
+								"source": "data/counties/u4_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -1014,7 +1014,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/u2_details.json",
+								"source": "data/details/u4_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 									"fillOpacity": 0.8,
@@ -1039,7 +1039,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/u2_counties.json",
+								"source": "data/counties/u4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1064,7 +1064,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/u2_counties.json",
+								"source": "data/counties/u4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1189,7 +1189,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/u2_counties.json",
+								"source": "data/counties/u4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -1215,7 +1215,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/u2_details.json",
+								"source": "data/details/u4_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -1700,7 +1700,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l2_counties.json",
+								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -1725,7 +1725,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l2_details.json",
+								"source": "data/details/l3_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -1750,7 +1750,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l2_counties.json",
+								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -1776,7 +1776,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l2_details.json",
+								"source": "data/details/l3_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -1802,7 +1802,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l2_counties.json",
+								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1827,7 +1827,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l2_counties.json",
+								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1852,7 +1852,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l2_counties.json",
+								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -1977,7 +1977,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l2_counties.json",
+								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -2003,7 +2003,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l2_details.json",
+								"source": "data/details/l3_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -2094,7 +2094,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t1_counties.json",
+								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -2119,7 +2119,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t1_details.json",
+								"source": "data/details/t4_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -2144,7 +2144,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t1_counties.json",
+								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -2170,7 +2170,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t1_details.json",
+								"source": "data/details/t4_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -2196,7 +2196,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t1_counties.json",
+								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -2221,7 +2221,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t1_counties.json",
+								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -2246,7 +2246,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t1_counties.json",
+								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -2371,7 +2371,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t1_counties.json",
+								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -2397,7 +2397,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t1_details.json",
+								"source": "data/details/t4_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -2885,7 +2885,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -2901,7 +2901,7 @@
 									{
 										"type": "heat",
 										"interval": 5,
-										"size": 0.07,
+										"size": 0.17,
 										"showOnLegend": true
 									}
 								]
@@ -2909,7 +2909,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -2934,7 +2934,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -3059,7 +3059,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -3085,7 +3085,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -3179,7 +3179,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l1_details.json",
+								"source": "data/details/l4_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -3195,7 +3195,7 @@
 									{
 										"type": "heat",
 										"interval": 5,
-										"size": 0.07,
+										"size": 0.17,
 										"showOnLegend": true
 									}
 								]
@@ -3203,7 +3203,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l1_counties.json",
+								"source": "data/counties/l4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -3228,7 +3228,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l1_counties.json",
+								"source": "data/counties/l4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -3353,7 +3353,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l1_counties.json",
+								"source": "data/counties/l4_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -3379,7 +3379,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l1_details.json",
+								"source": "data/details/l4_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -3473,7 +3473,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t4_details.json",
+								"source": "data/details/t1_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -3489,7 +3489,7 @@
 									{
 										"type": "heat",
 										"interval": 5,
-										"size": 0.07,
+										"size": 0.17,
 										"showOnLegend": true
 									}
 								]
@@ -3497,7 +3497,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t4_counties.json",
+								"source": "data/counties/t1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -3522,7 +3522,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t4_counties.json",
+								"source": "data/counties/t1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -3647,7 +3647,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t4_counties.json",
+								"source": "data/counties/t1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -3673,7 +3673,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t4_details.json",
+								"source": "data/details/t1_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -3767,7 +3767,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/u4_details.json",
+								"source": "data/details/u2_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -3783,7 +3783,7 @@
 									{
 										"type": "heat",
 										"interval": 5,
-										"size": 0.07,
+										"size": 0.17,
 										"showOnLegend": true
 									}
 								]
@@ -3791,7 +3791,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/u4_counties.json",
+								"source": "data/counties/u2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -3816,7 +3816,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/u4_counties.json",
+								"source": "data/counties/u2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -3941,7 +3941,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/u4_counties.json",
+								"source": "data/counties/u2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -3967,7 +3967,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/u4_details.json",
+								"source": "data/details/u2_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -4384,7 +4384,7 @@
 					        {
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l4_counties.json",
+								"source": "data/counties/l1_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -4414,7 +4414,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l4_details.json",
+								"source": "data/details/l1_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -4444,7 +4444,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l4_counties.json",
+								"source": "data/counties/l1_counties.json",
 								"displayAttributes": [
 									"NAMELSAD10"
 								],
@@ -4468,7 +4468,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/l4_counties.json",
+								"source": "data/counties/l1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -4593,7 +4593,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/l4_counties.json",
+								"source": "data/counties/l1_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -4619,7 +4619,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/l4_details.json",
+								"source": "data/details/l1_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -4710,7 +4710,7 @@
 					        {
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t3_counties.json",
+								"source": "data/counties/t2_counties.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -4740,7 +4740,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t3_details.json",
+								"source": "data/details/t2_details.json",
 								"expressedAttribute": "tweets",
 								"layerOptions": {
 								"fillOpacity": 0.8,
@@ -4770,7 +4770,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t3_counties.json",
+								"source": "data/counties/t2_counties.json",
 								"displayAttributes": [
 									"NAMELSAD10"
 								],
@@ -4794,7 +4794,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/t3_counties.json",
+								"source": "data/counties/t2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -4919,7 +4919,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/t3_counties.json",
+								"source": "data/counties/t2_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -4945,7 +4945,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/t3_details.json",
+								"source": "data/details/t2_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -5368,7 +5368,7 @@
 							        {
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5400,7 +5400,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5432,7 +5432,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5464,7 +5464,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5496,7 +5496,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5528,7 +5528,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/details/c1_details.json",
+										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5561,7 +5561,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/details/c1_details.json",
+										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5594,7 +5594,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/details/c1_details.json",
+										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5627,7 +5627,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/details/c1_details.json",
+										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5660,7 +5660,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/details/c1_details.json",
+										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5693,7 +5693,7 @@
 									{
 										"roundTo": 0,
 										"name": "counties",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"displayAttributes": [
 											"NAMELSAD10"
 										],
@@ -5717,7 +5717,7 @@
 									{
 										"roundTo": 0,
 										"name": "counties",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweets",
 										"displayAttributes": [
 											"NAMELSAD10"
@@ -5842,7 +5842,7 @@
 										{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/counties/c1_counties.json",
+										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweets",
 										"displayAttributes": ["NAME10","tweets"],
 										"layerOptions": {
@@ -5868,7 +5868,7 @@
 									{
 										"roundTo": 0,
 										"name": "Tweets",
-										"source": "data/details/c1_details.json",
+										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweets",
 										"displayAttributes": ["tweets"],
 										"layerOptions": {
@@ -5959,7 +5959,7 @@
 					        {
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -5991,7 +5991,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6023,7 +6023,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6055,7 +6055,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6087,7 +6087,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6119,7 +6119,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6152,7 +6152,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6185,7 +6185,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6218,7 +6218,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6251,7 +6251,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {
@@ -6284,7 +6284,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"displayAttributes": [
 									"NAMELSAD10"
 								],
@@ -6308,7 +6308,7 @@
 							{
 								"roundTo": 0,
 								"name": "counties",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": [
 									"NAMELSAD10"
@@ -6433,7 +6433,7 @@
 								{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/counties/c1_counties.json",
+								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["NAME10","tweets"],
 								"layerOptions": {
@@ -6459,7 +6459,7 @@
 							{
 								"roundTo": 0,
 								"name": "Tweets",
-								"source": "data/details/c1_details.json",
+								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweets",
 								"displayAttributes": ["tweets"],
 								"layerOptions": {

@@ -313,6 +313,7 @@ var Heat = Isarithmic.extend({
 		this.attributes.features = points;
 	},
 	featuresToDataPoints: function(features, expressedAttribute){
+
 		//return data usable to leaflet-heatmap
 		var data = [];
 		_.each(features, function(feature){
@@ -323,19 +324,21 @@ var Heat = Isarithmic.extend({
 			datum[expressedAttribute] = feature.properties[expressedAttribute];
 			data.push(datum);
 		});
+		console.log(data);
 		return data;
 	},
 	setHeatmap: function(model){
 		//library specific
 	},
 	symbolize: function(){
+		console.log("here");
 		var technique = this.get('techniques')[this.get('techniqueIndex')],
 			size = technique.size || null;
 			interval = technique.interval || 10;
 		this.attributes.size = size;
 		this.attributes.interval = interval;
-		this.polygonsToDots();
 		this.setHeatmap(this);
+		console.log("and here");
 	}
 });
 
@@ -1893,7 +1896,7 @@ var LeafletMap = Backbone.View.extend({
 						max: values[values.length-1],
 						data: points
 					};
-					console.log(expressedAttribute);
+					console.log(values);
 					//leaflet heatmap layer config
 					var heatmapConfig = {
 						radius: size,

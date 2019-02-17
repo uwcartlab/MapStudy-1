@@ -25,7 +25,8 @@
 		"note": "Survey D"
 	},
 	{
-		"pages": [1,5,9,13],
-		"weight": 0
+		"pages": [9,10,11,12],
+		"weight": 0,
+		"note": "Test"
 	}
 ]
