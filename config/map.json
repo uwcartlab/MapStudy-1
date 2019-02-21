@@ -78,7 +78,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": ["#ffffff","#f7fcf5","#c7e9c0","#74c476","#238b45","#00441b"]
 									}
 								]
 							},
@@ -396,7 +396,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": ["#ffffff","#f7fcf5","#c7e9c0","#74c476","#238b45","#00441b"]
 									}
 								]
 							},
@@ -714,7 +714,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": ["#ffffff","#f7fcf5","#c7e9c0","#74c476","#238b45","#00441b"]
 									}
 								]
 							},
@@ -1007,7 +1007,7 @@
 										"type": "choropleth",
 										"classification": "equal interval",
 										"showOnLegend": true,
-										"classes": "Greens.9"
+										"classes": ["#ffffff","#f7fcf5","#c7e9c0","#74c476","#238b45","#00441b"]
 									}
 								]
 							},
