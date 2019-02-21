@@ -87,7 +87,7 @@
       //hack
  
       if(zoom==8){
-        scale = Math.pow(2.01, zoom);
+        scale = Math.pow(2.04, zoom);
       }
       else{
         scale = Math.pow(1.98, zoom);
