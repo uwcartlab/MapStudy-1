@@ -1354,7 +1354,7 @@
 								]
 							},
 							{
-								"roundTo": 0,
+								"roundTo": 0.0,
 								"name": "Tweets",
 								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
