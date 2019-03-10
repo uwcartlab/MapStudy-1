@@ -814,6 +814,24 @@
 					]
 				}
 			]
+		},
+		{
+			"page": 21,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Instructions and Eligibility",
+							"ask": "</br><strong>Thank you for agreeing to participate!</strong></br></br>Maps and geographic information are increasingly common in daily life! You may be familiar with mapping services like Apple Maps, Google Maps, and MapQuest. You also may make use of web maps in social media like Facebook, Foursquare, Instagram, and Twitter. Further, you might have explored more complex interactive maps in popular news outlets like the New York Times and the Washington Post. The purpose of this study is to learn how we should design these maps.</br></br><strong>INSTRUCTIONS</strong></br>In the following survey, you will be shown different web map designs that depict the volume of tweets in Western Kansas. <strong>Twitter</strong> is a social media platform allowing users to submit short messages (i.e., <strong>tweets</strong>) that include a mappable location. The volume of tweets often is used as a proxy for public interest and engagement around different topics (e.g., entertainment, fashion, food, sports). The tweet topic will change from map to map, such that each tweet map pattern you will see is unique.</br></br>The survey has two sections: </br><ul><li>First, you will be presented with 16 different maps and answer questions about map patterns as you interact with the maps. The map tasks <strong>are timed</strong>, so please do not divert your attention when completing the map tasks.</li><li>The survey closes with questions about your preferences, interests, and experiences. You will be compensated after completing the closing background survey.</li></ul>You will be compensated <strong>after</strong> completing these sections and an exit survey!</br></br><strong>ELIGIBILITY</strong></br>Before beginning, please once again review your eligibility for participating in the study: These restrictions greatly impact your responses.</br><ul><li>You must be 18 years of age or older.</li><li>You must be fluent in English.</li><li>You must currently be living in the United States, but not in Kansas due to familiarity with the tested Geography</li><li>You do not have color vision impairment (i.e., are colorblind).</li><li>You must complete the survey on a non-mobile device, such as a laptop or desktop computer. <strong>Completing the experiment on a smartphone or small screen tablet will greatly impact your performance and skew results.<strong></li></ul></br></br>Click “Next” to confirm that you have read the instructions and that you are eligible to participate in the study."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
 		}
+
 	]
 }
