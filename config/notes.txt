@@ -17,5 +17,16 @@ Map 14: prop-_L1_1
 Map 15: prop-_T2_4
 Map 16: prop-_U3_2
 
+Page 17: Submit page
+Page 18: Thank you page
+Page 19: Training map
+
+Page 20: IRB
+Page 21: Instructions and Eligibility
+ 
+
+
+
+
 
 
