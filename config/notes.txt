@@ -19,11 +19,17 @@ Map 16: prop-_U3_2
 
 Page 17: Submit page
 Page 18: Thank you page
-Page 19: Training map
 
-Page 20: IRB
-Page 21: Instructions and Eligibility
- 
+Page 19: Training map (Interaction)
+Page 20: Training map (Map Legend)
+Page 21: Training map (Questions)
+
+
+Page 22: IRB
+Page 23: Instructions and Eligibility
+
+
+
 
 
 
