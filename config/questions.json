@@ -1362,7 +1362,7 @@
 										}
 									]
 								},
-			{
+						{
 							"page": 27,
 								"fullpage": true,
 									"sets": [
@@ -1438,7 +1438,58 @@
 											]
 										}
 									]
-								}
+								},
+		{
+			"page": 29,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Part 1: Practice Map",
+							"ask": "</br>Again, thank you for agreeing to participate in this study! </br></br>In Part 1, you will presented with a practice map. In this section, you will learn how to: <strong>interact with the map, review legends, complete map tasks, and answer survey questions</strong."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 30,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Part 2: Maps",
+							"ask": "</br>Congrats! You have just completed the practice map in Part 1.</br></br>In this next section, you will be presented with 16 different maps and answer questions about map patterns as you interact with the maps. </br></br>The map tasks are timed, so please do not divert your attention when completing the map tasks."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 31,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Part 3: Exit Survey",
+							"ask": "</br>Congrats! You have just completed the mapping tasks in Part 2 of the survey and are almost done with this survey.</br></br>Next, you will complete an <strong>exit survey</strong> about your map preferences as well as surveys about your background, interests, and technology used. <i>You will be compensated after completing an exit survey<i>."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		}
 
 	]
 }
