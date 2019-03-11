@@ -799,10 +799,10 @@
 							    "blocks": [
 									{
 									"title": "Example Map",
-									"ask": "</br><strong>Example Questions</strong></br></br>The map tasks are timed, so please do not divert your attention when completing the map tasks; the confidence and difficulty questions are not timed, so take your time in answering these follow-up questions. Example questions include: <uL><li>Compare</li><li>Rank</li><li>Confidence</li><li>Difficulty</li></ul><i>Try answering these questions now by interacting with the map.</i> We are not collecting your responses to these example questions, so please take your time to get comfortable with the survey format."
+									"ask": "</br><strong>Example Questions</strong></br></br>The map tasks are timed, so please do not divert your attention when completing the map tasks; the confidence and difficulty questions are not timed, so take your time in answering these follow-up questions. Example questions include: <uL><li>Compare</li><li>Rank</li><li>Confidence</li><li>Difficulty</li></ul><i>Try answering these questions now by interacting with the map.</i> We are not collecting your responses to these example questions, so please take your time to get comfortable with the survey format.</br></br>"
 								},
 								{
-									"ask": "</br><strong>1. Which city had the most tweets?</strong>",
+									"ask": "1. <strong>Compare</strong>: Which city had more tweets about pizza?",
 									"input": {
 										"required": false,
 										"autoadvance": false,
@@ -813,9 +813,6 @@
 												},
 												{
 													"text": "Hays"
-												},
-												{
-													"text": "Ness City"
 												}
 											],
 										"items": [
@@ -824,7 +821,94 @@
 											}
 										]
 									}
-								}
+								},
+								{
+									"ask": "2. <strong>Compare</strong>: Which county had more tweets about pizza?",
+									"input": {
+										"required": false,
+										"autoadvance": false,
+										"type": "matrix",
+										"options": [
+												{
+													"text": "Garden County"
+												},
+												{
+													"text": "Hays County"
+												}
+											],
+										"items": [
+											{
+
+											}
+										]
+									}
+								},
+								{
+						              "ask": "3. On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br></br>(<i>1 = Very Unsure, 5 = Very Confident</i>)",
+						              "input": {
+							                "required": false,
+							                "type": "matrix",
+							                "options": [
+							                  {
+							                    "text": "1"
+							                  },
+							                  {
+							                    "text": "2"
+							                  },
+							                  {
+							                    "text": "3"
+							                  },
+							                  {
+							                    "text": "4"
+							                  },
+							                  {
+							                    "text": "5"
+							                  },
+							                  {
+							                    "text": "6"
+							                  },
+							                  {
+							                    "text": "7"
+							                  }
+							                ],
+							                "items": [
+							                  {}
+							                ]
+						              }
+					            },
+					            {
+						              "ask": "4. On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br></br>(<i>1 = Very Unsure, 5 = Very Confident</i>)",
+						              "input": {
+							                "required": false,
+							                "type": "matrix",
+							                "options": [
+							                  {
+							                    "text": "1"
+							                  },
+							                  {
+							                    "text": "2"
+							                  },
+							                  {
+							                    "text": "3"
+							                  },
+							                  {
+							                    "text": "4"
+							                  },
+							                  {
+							                    "text": "5"
+							                  },
+							                  {
+							                    "text": "6"
+							                  },
+							                  {
+							                    "text": "7"
+							                  }
+							                ],
+							                "items": [
+							                  {}
+							                ]
+						              }
+					            }
 							],
 							"buttons": [
 								"next"
