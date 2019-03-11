@@ -17,5 +17,34 @@ Map 14: prop-_L1_1
 Map 15: prop-_T2_4
 Map 16: prop-_U3_2
 
+Page 17: Submit page
+Page 18: Thank you page
+
+Page 19: Training map (Interaction)
+Page 20: Training map (Map Legend)
+Page 21: Training map (Questions)
+
+
+Page 22: IRB
+Page 23: Instructions and Eligibility
+
+Page 24: Usefulness and Preference Survey (map type)
+Page 25: Usefulness and Preference Survey (interactivity)
+
+Page 26: Background
+Page 27: Familiarity and Interest
+Page 28: Technology Survey
+
+Page 29: Part 1: Practice Map
+Page 30: Part 2: Map
+Page 31: Part 3: Exit Survey
+
+
+
+
+
+
+
+
 
 
