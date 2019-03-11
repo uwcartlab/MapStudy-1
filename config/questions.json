@@ -949,7 +949,496 @@
 					]
 				}
 			]
-		}
+		},
+		{
+			"page": 24,
+				"fullpage": true,
+					"sets": [
+						{
+							"blocks": [
+								{	
+						             "ask": "</br><img src='img/survey/maps.png' style='width: 65%; height: auto;'>"						
+						        },
+								{	
+										"title": "Usefulness and Preference Survey",
+						              	"ask": "</br>Rank how <strong>useful</strong> you found the four map designs for completing the map tasks on a scale of 1-7.</br>(<i>1 = Least Useful, 5 = Most Useful</i>)",
+						              	"input": {
+							                "required": false,
+							                "type": "matrix",
+							                "options": [
+								                  {
+								                    "text": "1"
+								                  },
+								                  {
+								                    "text": "2"
+								                  },
+								                  {
+								                    "text": "3"
+								                  },
+								                  {
+								                    "text": "4"
+								                  },
+								                  {
+								                    "text": "5"
+								                  },
+								                  {
+								                    "text": "6"
+								                  },
+								                  {
+								                    "text": "7"
+								                  }
+							                ],
+							                "items": [
+							                  	{"text": "Choropleth map"},
+							                  	{"text": "Proportional symbol map"},
+							                  	{"text": "Heat map"},
+							                  	{"text": "Dot map"}
+							                ]
+						              }
+					            },
+					            {	
+						              	"ask": "</br>Rank your personal <strong>preference</strong> of the four map designs regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Useful, 5 = Most Useful</i>)",
+						              	"input": {
+							                "required": false,
+							                "type": "matrix",
+							                "options": [
+								                  {
+								                    "text": "1"
+								                  },
+								                  {
+								                    "text": "2"
+								                  },
+								                  {
+								                    "text": "3"
+								                  },
+								                  {
+								                    "text": "4"
+								                  },
+								                  {
+								                    "text": "5"
+								                  },
+								                  {
+								                    "text": "6"
+								                  },
+								                  {
+								                    "text": "7"
+								                  }
+							                ],
+							                "items": [
+							                  	{"text": "Choropleth map"},
+							                  	{"text": "Proportional symbol map"},
+							                  	{"text": "Heat map"},
+							                  	{"text": "Dot map"}
+							                ]
+						              }
+					            },
+					            {	
+						              	"ask": "</br>Do you have any additional thoughts, opinions, or concerns about the interactive features?",
+						              	"input": {
+							                "required": false,
+							                "type": "text"
+						              }
+					            }
+							],
+							"buttons": [
+								"next"
+							]
+						}
+					]
+				},
+				{
+					"page": 25,
+						"fullpage": true,
+							"sets": [
+								{
+									"blocks": [
+											{	
+												"title": "</br>Usefulness and Preference Survey",
+								              	"ask": "</br>Rank your personal <strong>preference</strong> of the provided interactive features regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Useful, 5 = Most Useful</i>)",
+								              	"input": {
+									                "required": false,
+									                "type": "matrix",
+									                "options": [
+										                  {
+										                    "text": "1"
+										                  },
+										                  {
+										                    "text": "2"
+										                  },
+										                  {
+										                    "text": "3"
+										                  },
+										                  {
+										                    "text": "4"
+										                  },
+										                  {
+										                    "text": "5"
+										                  },
+										                  {
+										                    "text": "6"
+										                  },
+										                  {
+										                    "text": "7"
+										                  }
+									                ],
+									                "items": [
+									                  	{"text": "Zoom in and out"},
+									                  	{"text": "Pan map position"},
+									                  	{"text": "Retrieve details (popups)"}
+									                ]
+								              }
+							            },
+									    {	
+								              	"ask": "</br>Do you have any additional thoughts, opinions, or concerns about the interactive features?",
+								              	"input": {
+									                "required": false,
+									                "type": "text"
+								              }
+							            }
+									],
+									"buttons": [
+										"next"
+									]
+								}
+							]
+						},
+				{
+					"page": 26,
+						"fullpage": true,
+							"sets": [
+								{
+									"blocks": [
+											{	
+												"title": "</br>Background Survey",
+								              	"ask": "</br>How old are you?",
+								              	"input": {
+									                "required": false,
+												"type": "dropdown",
+													"options": [
+														{
+															"text": "Under 18"
+														},
+														{
+															"text": "18–20"
+														},
+														{
+															"text": "21—25"
+														},
+														{
+															"text": "26—30"
+														},
+														{
+															"text": "31—35"
+														},
+														{
+															"text": "36—40"
+														},
+														{
+															"text": "41–45"
+														},
+														{
+															"text": "46–50"
+														},
+														{
+															"text": "51–55"
+														},
+														{
+															"text": "56–60"
+														},
+														{
+															"text": "61–65"
+														},
+														{
+															"text": "66–70"
+														},
+														{
+															"text": "71–75"
+														},
+														{
+															"text": "76–80"
+														}
+													]
+												}
+											},
+										{
+											"ask": "</br>What is your gender identity?",
+											"input": {
+												"required": false,
+												"type": "radios",
+												"options": [
+													{
+														"text": "Male"
+													},
+													{
+														"text": "Female"
+													},
+													{
+														"text": "Other"
+													}
+												]
+											}
+										},
+										{
+											"ask": "</br>Do you have corrected vision?",
+											"input": {
+												"required": false,
+												"type": "radios",
+												"options": [
+													{
+														"text": "Yes"
+													},
+													{
+														"text": "No"
+													}
+												]
+											}
+										},
+										{
+											"ask": "</br>Do you have color vision impairment (i.e. colorblind)?",
+											"input": {
+												"required": false,
+												"type": "radios",
+												"options": [
+													{
+														"text": "Yes"
+													},
+													{
+														"text": "No"
+													},
+													{
+														"text": "I don't know"
+													}
+												]
+											}
+										},
+										{
+											"ask": "</br>Is English your first language?",
+											"input": {
+												"required": false,
+												"type": "radios",
+												"options": [
+													{
+														"text": "Yes"
+													},
+													{
+														"text": "No"
+													}
+												]
+											}
+										},
+										{
+											"ask": "</br>Are you fluent in English?",
+											"input": {
+												"required": false,
+												"type": "radios",
+												"options": [
+													{
+														"text": "Yes"
+													},
+													{
+														"text": "No"
+													}
+												]
+											}
+										}
+									],
+									"buttons": [
+										"next"
+									]
+								}
+							]
+						},
+						{
+							"page": 27,
+								"fullpage": true,
+									"sets": [
+										{
+											"blocks": [
+													{	
+														"title": "</br>Familiarity and Interest Survey",
+										              	"ask": "</br>Please rate your <strong>knowledge</strong> of the following topics on a scale of 1-7:</br>(<i>1 = I do not know anything about this topic, 4 = I have an average understanding of this topic, 7 = I know a lot about this topic</i>)",
+										              	"input": {
+											                "required": false,
+											                "type": "matrix",
+											                "options": [
+												                  {
+												                    "text": "1"
+												                  },
+												                  {
+												                    "text": "2"
+												                  },
+												                  {
+												                    "text": "3"
+												                  },
+												                  {
+												                    "text": "4"
+												                  },
+												                  {
+												                    "text": "5"
+												                  },
+												                  {
+												                    "text": "6"
+												                  },
+												                  {
+												                    "text": "7"
+												                  }
+											                ],
+											                "items": [
+											                  	{"text": "Computer Technology"},
+											                  	{"text": "The Internet / The Web"},
+											                  	{"text": "Map Design"},
+											                  	{"text": "Geography"},
+											                  	{"text": "Numbers and Statistics"},
+											                  	{"text": "Twitter"}
+											                ]
+										              }
+									            },
+									            {	
+										              	"ask": "</br>Please rate your <strong>interest</strong> of the following topics on a scale of 1-7:</br>(<i>1 = I do not know anything about this topic, 4 = I have an average understanding of this topic, 7 = I know a lot about this topic</i>)",
+										              	"input": {
+											                "required": false,
+											                "type": "matrix",
+											                "options": [
+												                  {
+												                    "text": "1"
+												                  },
+												                  {
+												                    "text": "2"
+												                  },
+												                  {
+												                    "text": "3"
+												                  },
+												                  {
+												                    "text": "4"
+												                  },
+												                  {
+												                    "text": "5"
+												                  },
+												                  {
+												                    "text": "6"
+												                  },
+												                  {
+												                    "text": "7"
+												                  }
+											                ],
+											                "items": [
+											                  	{"text": "Computer Technology"},
+											                  	{"text": "The Internet / The Web"},
+											                  	{"text": "Map Design"},
+											                  	{"text": "Geography"},
+											                  	{"text": "Numbers and Statistics"},
+											                  	{"text": "Twitter"}
+											                ]
+										              }
+									            },
+									            {
+													"ask": "</br>How frequently do you participate in research studies on Mechanical Turk?",
+													"input": {
+														"required": false,
+														"type": "radios",
+														"options": [
+															{
+																"text": "Daily"
+															},
+															{
+																"text": "Weekly"
+															},
+															{
+																"text": "Monthly"
+															},
+															{
+																"text": "Annually"
+															},
+															{
+																"text": "Other"
+															}
+														]
+													}
+												}
+											],
+											"buttons": [
+												"next"
+											]
+										}
+									]
+								},
+			{
+							"page": 27,
+								"fullpage": true,
+									"sets": [
+										{
+											"blocks": [
+									            {
+									            	"title": "Technology Survey",
+													"ask": "</br>What kind of <strong>computing device </strong>did you use to view and complete the survey? ",
+													"input": {
+														"required": false,
+														"type": "radios",
+														"options": [
+															{
+																"text": "Smartphone"
+															},
+															{
+																"text": "Tablet"
+															},
+															{
+																"text": "Laptop computer"
+															},
+															{
+																"text": "Desktop computer"
+															},
+															{
+																"text": "Other"
+															}
+														]
+													}
+												},
+												{
+													"ask": "</br>What best describes the manner you interacted with the map and submitted your survey responses?",
+													"input": {
+														"required": false,
+														"type": "radios",
+														"options": [
+															{
+																"text": "Touch screen"
+															},
+															{
+																"text": "Touch pad"
+															},
+															{
+																"text": "Mouse"
+															},
+															{
+																"text": "Other"
+															}
+														]
+													}
+												},
+												{
+													"ask": "</br>Did you divert your attention (e.g., open another website, check your phone) in any way when completing the survey? </br><i>Note: this has no bearing on compensation</i>",
+													"input": {
+														"required": false,
+														"type": "radios",
+														"options": [
+															{
+																"text": "Yes"
+															},
+															{
+																"text": "No"
+															},
+															{
+																"text": "I don't know"
+															}
+														]
+													}
+												}
+											],
+											"buttons": [
+												"next"
+											]
+										}
+									]
+								}
 
 	]
 }
