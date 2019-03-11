@@ -765,7 +765,7 @@
 						          "blocks": [
 									{
 										"title": "Example Map",
-										"ask": "</br>The interactive map to the left demonstrates the basic design and functionality of the maps you will see in the survey, although using silly map symbols. </br></br>Take some time to test out <strong>Map Interactions.</strong></br></br>The interactive map includes three interactive features:</br></br>1. <strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, or using the zoom buttons to change the level of detail (zooming is constrained to only several scales). </br></br>2. <strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area). </br></br>3. <strong>Retrieve</strong> details about the number of tweets at a specific location by clicking on the map.</br></br><i>Try each of these interactions now.</i>"
+										"ask": "</br>The interactive map to the left demonstrates the basic design and functionality of the maps you will see in the survey, although using silly map symbols. </br></br><strong>Map Interactions</strong></br></br>The interactive map includes three interactive features:</br></br>1. <strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, or using the zoom buttons to change the level of detail (zooming is constrained to only several scales). </br></br>2. <strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area). </br></br>3. <strong>Retrieve</strong> details about the number of tweets at a specific location by clicking on the map.</br></br><i>Try each of these interactions now.</i>"
 									}
 								],
 								"buttons": [
@@ -774,8 +774,66 @@
 							}
 						]
 					},
-		{
+			{
 			"page": 20,
+				"fullpage": false,
+					"sets": [
+						{
+						    "blocks": [
+								{
+									"title": "Example Map",
+									"ask": "</br><strong>Map Legend</strong></br></br>The map legend explains the meaning of the map symbols, which vary from map to map. The maps show the distribution of tweets in Western Kansas, with each map presenting a different topic (e.g., entertainment, fashion, food, sports). Tweet maps are depicted at two scales when zooming: tweets are aggregated by U.S. county by default when zoomed out and by “township” (6 mile by 6 mile subunits) when zoomed in. The legend provides a visual reference for both scales, the aggregated county on the left and more detailed townships on the right.</br><img src='img/legends/smiley.png' style='max-width: 300px; width: 100%; height: auto;'></br></br><i>All legends have five classes.</i>"
+								}
+							],
+							"buttons": [
+								"next"
+							]
+						}
+					]
+				},
+			{
+				"page": 21,
+					"fullpage": false,
+						"sets": [
+							{
+							    "blocks": [
+									{
+									"title": "Example Map",
+									"ask": "</br><strong>Example Questions</strong></br></br>The map tasks are timed, so please do not divert your attention when completing the map tasks; the confidence and difficulty questions are not timed, so take your time in answering these follow-up questions. Example questions include: <uL><li>Compare</li><li>Rank</li><li>Confidence</li><li>Difficulty</li></ul><i>Try answering these questions now by interacting with the map.</i> We are not collecting your responses to these example questions, so please take your time to get comfortable with the survey format."
+								},
+								{
+									"ask": "</br><strong>1. Which city had the most tweets?</strong>",
+									"input": {
+										"required": false,
+										"autoadvance": false,
+										"type": "matrix",
+										"options": [
+												{
+													"text": "Garden City"
+												},
+												{
+													"text": "Hays"
+												},
+												{
+													"text": "Ness City"
+												}
+											],
+										"items": [
+											{
+
+											}
+										]
+									}
+								}
+							],
+							"buttons": [
+								"next"
+							]
+						}
+					]
+				},
+		{
+			"page": 22,
 			"fullpage": true,
 			"sets": [
 				{
@@ -792,7 +850,7 @@
 			]
 		},
 		{
-			"page": 21,
+			"page": 23,
 			"fullpage": true,
 			"sets": [
 				{
