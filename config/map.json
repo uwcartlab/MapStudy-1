@@ -237,7 +237,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c1_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -263,7 +263,7 @@
 								"name": "Tweets",
 								"source": "data/details/c1_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -555,7 +555,7 @@
 								"name": "Tweets",
 								"source": "data/counties/l2_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -581,7 +581,7 @@
 								"name": "Tweets",
 								"source": "data/details/l2_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -873,7 +873,7 @@
 								"name": "Tweets",
 								"source": "data/counties/t3_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -899,7 +899,7 @@
 								"name": "Tweets",
 								"source": "data/details/t3_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -1191,7 +1191,7 @@
 								"name": "Tweets",
 								"source": "data/counties/u4_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -1217,7 +1217,7 @@
 								"name": "Tweets",
 								"source": "data/details/u4_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -1358,7 +1358,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -1384,7 +1384,7 @@
 								"name": "Tweets",
 								"source": "data/details/c2_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -1585,7 +1585,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c2_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -1611,7 +1611,7 @@
 								"name": "Tweets",
 								"source": "data/details/c2_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -1752,7 +1752,7 @@
 								"name": "Tweets",
 								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -1778,7 +1778,7 @@
 								"name": "Tweets",
 								"source": "data/details/l3_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -1979,7 +1979,7 @@
 								"name": "Tweets",
 								"source": "data/counties/l3_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -2005,7 +2005,7 @@
 								"name": "Tweets",
 								"source": "data/details/l3_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -2146,7 +2146,7 @@
 								"name": "Tweets",
 								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -2172,7 +2172,7 @@
 								"name": "Tweets",
 								"source": "data/details/t4_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -2373,7 +2373,7 @@
 								"name": "Tweets",
 								"source": "data/counties/t4_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -2399,7 +2399,7 @@
 								"name": "Tweets",
 								"source": "data/details/t4_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -2540,7 +2540,7 @@
 								"name": "Tweets",
 								"source": "data/counties/u1_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -2566,7 +2566,7 @@
 								"name": "Tweets",
 								"source": "data/details/u1_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0,
 								"color": "black",
@@ -2767,7 +2767,7 @@
 								"name": "Tweets",
 								"source": "data/counties/u1_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -2793,7 +2793,7 @@
 								"name": "Tweets",
 								"source": "data/details/u1_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3061,7 +3061,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3087,7 +3087,7 @@
 								"name": "Tweets",
 								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3355,7 +3355,7 @@
 								"name": "Tweets",
 								"source": "data/counties/l4_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3381,7 +3381,7 @@
 								"name": "Tweets",
 								"source": "data/details/l4_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3649,7 +3649,7 @@
 								"name": "Tweets",
 								"source": "data/counties/t1_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3675,7 +3675,7 @@
 								"name": "Tweets",
 								"source": "data/details/t1_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3943,7 +3943,7 @@
 								"name": "Tweets",
 								"source": "data/counties/u2_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -3969,7 +3969,7 @@
 								"name": "Tweets",
 								"source": "data/details/u2_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -4269,7 +4269,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c4_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -4295,7 +4295,7 @@
 								"name": "Tweets",
 								"source": "data/details/c4_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -4595,7 +4595,7 @@
 								"name": "Tweets",
 								"source": "data/counties/l1_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -4621,7 +4621,7 @@
 								"name": "Tweets",
 								"source": "data/details/l1_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -4921,7 +4921,7 @@
 								"name": "Tweets",
 								"source": "data/counties/t2_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -4947,7 +4947,7 @@
 								"name": "Tweets",
 								"source": "data/details/t2_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -5247,7 +5247,7 @@
 								"name": "Tweets",
 								"source": "data/counties/u3_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -5273,7 +5273,7 @@
 								"name": "Tweets",
 								"source": "data/details/u3_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -5370,7 +5370,7 @@
 										"name": "Tweets",
 										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5402,7 +5402,7 @@
 										"name": "Tweets",
 										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5434,7 +5434,7 @@
 										"name": "Tweets",
 										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5466,7 +5466,7 @@
 										"name": "Tweets",
 										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5498,7 +5498,7 @@
 										"name": "Tweets",
 										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5530,7 +5530,7 @@
 										"name": "Tweets",
 										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5563,7 +5563,7 @@
 										"name": "Tweets",
 										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5596,7 +5596,7 @@
 										"name": "Tweets",
 										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5629,7 +5629,7 @@
 										"name": "Tweets",
 										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5662,7 +5662,7 @@
 										"name": "Tweets",
 										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweetClass",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.8,
 										"color": "green",
@@ -5844,7 +5844,7 @@
 										"name": "Tweets",
 										"source": "data/counties/c3_counties.json",
 										"expressedAttribute": "tweets",
-										"displayAttributes": ["NAME10","tweets"],
+										"displayAttributes": ["NAME10","tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.0001,
 										"color": "black",
@@ -5870,7 +5870,7 @@
 										"name": "Tweets",
 										"source": "data/details/c3_details.json",
 										"expressedAttribute": "tweets",
-										"displayAttributes": ["tweets"],
+										"displayAttributes": ["tweetClass"],
 										"layerOptions": {
 										"fillOpacity": 0.0001,
 										"color": "black",
@@ -5961,7 +5961,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -5993,7 +5993,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6025,7 +6025,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6057,7 +6057,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6089,7 +6089,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6121,7 +6121,7 @@
 								"name": "Tweets",
 								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6154,7 +6154,7 @@
 								"name": "Tweets",
 								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6187,7 +6187,7 @@
 								"name": "Tweets",
 								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6220,7 +6220,7 @@
 								"name": "Tweets",
 								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6253,7 +6253,7 @@
 								"name": "Tweets",
 								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweetClass",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.8,
 								"color": "green",
@@ -6435,7 +6435,7 @@
 								"name": "Tweets",
 								"source": "data/counties/c3_counties.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["NAME10","tweets"],
+								"displayAttributes": ["NAME10","tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
@@ -6461,7 +6461,7 @@
 								"name": "Tweets",
 								"source": "data/details/c3_details.json",
 								"expressedAttribute": "tweets",
-								"displayAttributes": ["tweets"],
+								"displayAttributes": ["tweetClass"],
 								"layerOptions": {
 								"fillOpacity": 0.0001,
 								"color": "black",
