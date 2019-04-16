@@ -106,7 +106,7 @@
 								"type": "rank",
 								"items": [
 									{
-										"text": "Garden City"
+										"text": "Garden"
 									},
 									{
 										"text": "River"
@@ -746,7 +746,7 @@
 										"type": "radios",
 										"options": [
 												{
-													"text": "Garden City"
+													"text": "Garden"
 												},
 												{
 													"text": "Hays"
@@ -767,7 +767,7 @@
 										"type": "rank",
 										"items": [
 											{
-												"text": "Garden City"
+												"text": "Garden"
 											},
 											{
 												"text": "River"
