@@ -5,7 +5,6 @@
 var _options = {};
 
 /************************ helper functions ***************************/
-
 //produce numeric values array from GeoJSON features
 function getAllAttributeValues(features, attribute){
 	//get attribute values for all features with given attribute
@@ -1828,7 +1827,7 @@ var LeafletMap = Backbone.View.extend({
 						var tweetType = "pizza"
 
 
-					popupContent += "<tr><td>"+volumeClass+" tweets about " + tweetType +"</td></tr>";
+					popupContent += "<tr><td>"+volumeClass+" tweets"+ "</td></tr>";
 				}
 				
 
