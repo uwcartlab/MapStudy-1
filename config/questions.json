@@ -7,7 +7,7 @@
 				{
 			          "blocks": [
 						{
-							"title": "MAP 1",
+							"title": "MAP 1: Volume of tweets about HIKING",
 							"ask": "Distribution: choro-_C1_1"
 						},
 						{
@@ -15,20 +15,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>city</strong> had the most tweets about hiking?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Oberlin"
 										},
 										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
+											"text": "St. Francis"
 										}
 									],
 								"items": [
@@ -52,7 +49,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 2",
+							"title": "MAP 2: Volume of tweets about GLOVES",
 							"ask": "Distribution: chor-_L2_2"
 						},
 						{
@@ -60,20 +57,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>county</strong> had the most tweets about gloves?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Ness County"
 										},
 										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
+											"text": "Sheridan County"
 										}
 									],
 								"items": [
@@ -97,7 +91,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 3",
+							"title": "MAP 3: Volume of tweets about COFFEE",
 							"ask": "Distribution: chor-_T3_3"
 						},
 						{
@@ -105,25 +99,20 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about coffee.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Garden City"
+									},
+									{
+										"text": "River"
+									},
+									{
+										"text": "Rock"
 									}
 								]
 							}
@@ -142,7 +131,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 4",
+							"title": "MAP 4: Volume of tweets about BASKETBALL",
 							"ask": "Distribution: chor-_U4_4"
 						},
 						{
@@ -150,25 +139,20 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about basketball.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Graham County"
+									},
+									{
+										"text": "Scott County"
+									},
+									{
+										"text": "Sherman County"
 									}
 								]
 							}
@@ -187,7 +171,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 5",
+							"title": "MAP 5: Volume of tweets about MOVIES",
 							"ask": "Distribution: dotd-_C2_2"
 						},
 						{
@@ -195,20 +179,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>county</strong> had the most tweets about movies?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Decatur County"
 										},
 										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
+											"text": "Phillips County"
 										}
 									],
 								"items": [
@@ -232,7 +213,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 6",
+							"title": "MAP 6: Volume of tweets about HATS",
 							"ask": "Distribution: dotd-_L3_4"
 						},
 						{
@@ -240,25 +221,20 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about hats.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Finney County"
+									},
+									{
+										"text": "Pawnee County"
+									},
+									{
+										"text": "Trego County"
 									}
 								]
 							}
@@ -277,7 +253,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 7",
+							"title": "MAP 7: Volume of tweets about HAMBURGERS",
 							"ask": "Distribution: dotd-_T4_1"
 						},
 						{
@@ -285,20 +261,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>city</strong> had the most tweets about hamburgers?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Atwood"
 										},
 										{
 											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
 										}
 									],
 								"items": [
@@ -322,7 +295,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 8",
+							"title": "MAP 8: Volume of tweets about BASEBALL",
 							"ask": "Distribution: dotd-_U1_3"
 						},
 						{
@@ -330,25 +303,20 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about baseball.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Colby"
+									},
+									{
+										"text": "Smith"
+									},
+									{
+										"text": "Wakeeney"
 									}
 								]
 							}
@@ -367,7 +335,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 9",
+							"title": "MAP 9: Volume of tweets about MUSIC",
 							"ask": "Distribution: heat-_C3_4"
 						},
 						{
@@ -375,25 +343,20 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about music.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Ellis County"
+									},
+									{
+										"text": "Gove County"
+									},
+									{
+										"text": "Hodgeman County"
 									}
 								]
 							}
@@ -412,7 +375,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 10",
+							"title": "MAP 10: Volume of tweets about JACKETS",
 							"ask": "Distribution: heat-_L4_3"
 						},
 						{
@@ -420,25 +383,20 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about jackets.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Dighton"
+									},
+									{
+										"text": "La Crosse"
+									},
+									{
+										"text": "Tribune"
 									}
 								]
 							}
@@ -457,7 +415,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 11",
+							"title": "MAP 11: Volume of tweets about PIZZA",
 							"ask": "Distribution: heat-_T1_2"
 						},
 						{
@@ -465,20 +423,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>county</strong> had the most tweets about pizza?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Rawlins County"
 										},
 										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
+											"text": "Witchita County"
 										}
 									],
 								"items": [
@@ -502,7 +457,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 12",
+							"title": "MAP 12: Volume of tweets about SOCCER",
 							"ask": "Distribution: heat-_U2_1"
 						},
 						{
@@ -510,20 +465,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>city</strong> had the most tweets about soccer?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Hill City"
 										},
 										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
+											"text": "Winona"
 										}
 									],
 								"items": [
@@ -547,7 +499,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 13",
+							"title": "MAP 13: Volume of tweets about NIGHTLIFE",
 							"ask": "Distribution: prop-_C4_3"
 						},
 						{
@@ -555,25 +507,20 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about nightlife.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Leoti"
+									},
+									{
+										"text": "Sharon Springs"
+									},
+									{
+										"text": "Syracuse"
 									}
 								]
 							}
@@ -592,7 +539,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 14",
+							"title": "MAP 14: Volume of tweets about SHOES",
 							"ask": "Distribution: prop-_L1_1"
 						},
 						{
@@ -600,20 +547,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>city</strong> had the most tweets about shoes?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Goodland"
 										},
 										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
+											"text": "Lakin"
 										}
 									],
 								"items": [
@@ -637,33 +581,28 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 15",
+							"title": "MAP 15: Volume of tweets about SALAD",
 							"ask": "Distribution: prop-_T2_4"
 						},
 						{
 							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
 							"image": "data/smile.png"
 						},
-						{
-							"ask": "Which city had the most tweets?",
+												{
+							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about salad.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
-								"options": [
-										{
-											"text": "Garden City"
-										},
-										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
-										}
-									],
+								"type": "rank",
 								"items": [
 									{
-
+										"text": "Logan County"
+									},
+									{
+										"text": "Norton County"
+									},
+									{
+										"text": "Rooks County"
 									}
 								]
 							}
@@ -682,7 +621,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 16",
+							"title": "MAP 16: Volume of tweets about TENNIS",
 							"ask": "Distribution: prop-_U3_2"
 						},
 						{
@@ -690,20 +629,17 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which city had the most tweets?",
+							"ask": "Which <strong>county</strong> had the most tweets about tennis?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
-								"type": "matrix",
+								"type": "radios",
 								"options": [
 										{
-											"text": "Garden City"
+											"text": "Lane County"
 										},
 										{
-											"text": "Hays"
-										},
-										{
-											"text": "Ness City"
+											"text": "Thomas County"
 										}
 									],
 								"items": [
