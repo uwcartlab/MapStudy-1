@@ -779,7 +779,7 @@
 									}
 								},
 								{
-						              "ask": "<br>3. <strong>Confidence:</strong> On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br></br>(<i>1 = Very Unsure, 5 = Very Confident</i>)",
+						              "ask": "<br>3. <strong>Confidence:</strong> On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						              "input": {
 							                "required": false,
 							                "type": "matrix",
@@ -812,7 +812,7 @@
 						              }
 					            },
 					            {
-						              "ask": "<br>4. <strong>Difficulty:</strong> On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br></br>(<i>1 = Very Unsure, 5 = Very Confident</i>)",
+						              "ask": "<br>4. <strong>Difficulty:</strong> On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br></br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						              "input": {
 							                "required": false,
 							                "type": "matrix",
@@ -932,7 +932,7 @@
 						              }
 					            },
 					            {	
-						              	"ask": "</br>Rank your personal <strong>preference</strong> of the four map designs regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Useful, 7 = Most Useful</i>)",
+						              	"ask": "</br>Rank your personal <strong>preference</strong> of the four map designs regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Preferred, 7 = Most Preferred</i>)",
 						              	"input": {
 							                "required": false,
 							                "type": "matrix",
@@ -1457,6 +1457,1286 @@
 							"title": "PART 3: Exit Survey",
 							"ask": "</br>Congrats! You have just completed the mapping tasks in Part 2 of the survey and are almost done with this survey.</br></br>Next, you will complete an <strong>exit survey</strong> about your map preferences as well as surveys about your background, interests, and technology used. <i>You will be compensated after completing an exit survey<i>."
 						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 32,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 33,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 34,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 35,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 36,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 37,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 38,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 39,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 40,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 41,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 42,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 43,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 44,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 45,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 46,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 47,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{	
+							"title": "Confidence and Difficulty Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						    "input": {
+							    "required": false,
+							    "type": "matrix",
+							    "options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							    ],
+							    "items": [
+							        {}
+							    ]
+						    }
+					    },
+					    {
+						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "input": {
+							"required": false,
+							"type": "matrix",
+							"options": [
+							        {
+							            "text": "1"
+							        },
+							        {
+							            "text": "2"
+							        },
+							        {
+							            "text": "3"
+							        },
+							        {
+							            "text": "4"
+							        },
+							        {
+							            "text": "5"
+							        },
+							        {
+							            "text": "6"
+							        },
+							        {
+							            "text": "7"
+							        }
+							],
+							"items": [
+							      {}
+							]
+						    }
+					    }
 					],
 					"buttons": [
 						"next"
