@@ -15,7 +15,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>city</strong> had the most tweets about hiking?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about hiking?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -57,7 +57,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>county</strong> had the most tweets about gloves?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about gloves?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -99,7 +99,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about coffee.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about coffee.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -139,7 +139,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about basketball.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about basketball.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -179,7 +179,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>county</strong> had the most tweets about movies?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about movies?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -221,7 +221,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about hats.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about hats.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -261,7 +261,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>city</strong> had the most tweets about hamburgers?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about hamburgers?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -303,7 +303,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about baseball.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about baseball.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -343,7 +343,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about music.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about music.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -383,7 +383,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about jackets.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about jackets.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -423,7 +423,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>county</strong> had the most tweets about pizza?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about pizza?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -465,7 +465,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>city</strong> had the most tweets about soccer?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about soccer?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -507,7 +507,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>cities</strong> according to their volume of tweets about nightlife.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about nightlife.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -547,7 +547,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>city</strong> had the most tweets about shoes?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about shoes?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -589,7 +589,7 @@
 							"image": "data/smile.png"
 						},
 												{
-							"ask": "Rank these <strong>counties</strong> according to their volume of tweets about salad.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about salad.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -629,7 +629,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>county</strong> had the most tweets about tennis?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about tennis?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -739,7 +739,7 @@
 									"ask": "</br><strong>Example Questions</strong></br></br>The map tasks are timed, so please do not divert your attention when completing the map tasks; the confidence and difficulty questions are not timed, so take your time in answering these follow-up questions. Example questions include: <uL><li>Compare</li><li>Rank</li><li>Confidence</li><li>Difficulty</li></ul><i>Try answering these questions now by interacting with the map.</i> We are not collecting your responses to these example questions, so please take your time to get comfortable with the survey format.</br></br>"
 								},
 								{
-									"ask": "1. <strong>Compare</strong>: Which <strong>city</strong> had more tweets about pizza?",
+									"ask": "1. <strong>Compare</strong>: Which <strong>CITY</strong> had more tweets about pizza?",
 									"input": {
 										"required": false,
 										"autoadvance": false,
@@ -760,7 +760,7 @@
 									}
 								},
 								{
-									"ask": "<br>2. <strong>Rank:</strong> Rank these <strong>cities</strong> according to their volume of tweets about pizza.</br><i>Drag each block to reorder. </br>1 = the highest rank and 3 = lowest rank.</i>",
+									"ask": "<br>2. <strong>Rank:</strong> Rank these <strong>CITIES</strong> according to their volume of tweets about pizza.</br><i>Drag each block to reorder. </br>1 = the highest rank and 3 = lowest rank.</i>",
 									"input": {
 										"required": false,
 										"autoadvance": false,
@@ -968,7 +968,7 @@
 						              }
 					            },
 					            {	
-						              	"ask": "</br>Do you have any additional thoughts, opinions, or concerns about the interactive features?",
+						              	"ask": "</br>Do you have any additional thoughts, opinions, or concerns about the four map designs?",
 						              	"input": {
 							                "required": false,
 							                "type": "paragraph"
