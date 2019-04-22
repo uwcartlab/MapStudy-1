@@ -1801,33 +1801,35 @@ var LeafletMap = Backbone.View.extend({
 					popupContent += "<tr><td class='attr'>"+feature.properties[attr]+"</td></tr>";
 				}else{
 
+					var volume = " volume of";
 						//determine volume
 						var volumeClass;
 						switch(feature.properties[attr]){
 						  case 0:
 						    volumeClass = "No";
+						    volume = "";
 						    break;
 						  case 1:
-						    volumeClass = "Very low volume of";
+						    volumeClass = "VERY LOW";
 						    break;
 						  case 2:
-						     volumeClass = "Low volume of";
+						     volumeClass = "LOW";
 						    break;
 						  case 3:
-						    volumeClass = "Medium volume of";
+						    volumeClass = "MEDIUM";
 						    break;
 						  case 4:
-						    volumeClass = "High volume of";
+						    volumeClass = "HIGH";
 						    break;
 						  case 5:
-						    volumeClass = "Very high volume of";
+						    volumeClass = "VERY HIGH";
 						    break;		
 						}
 						//determine food type
 						var tweetType = "pizza"
 
 
-					popupContent += "<tr><td>"+volumeClass+" tweets"+ "</td></tr>";
+					popupContent += "<tr><td><strong>"+volumeClass+"</strong>" + volume + " tweets"+ "</td></tr>";
 				}
 				
 

@@ -15,7 +15,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>CITY</strong> had the most tweets about hiking?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>HIKING?</strong>",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -57,7 +57,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>COUNTY</strong> had the most tweets about gloves?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>GLOVES</strong>?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -99,7 +99,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about coffee.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>COFFEE</strong>.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -139,7 +139,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about basketball.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>BASKETBALL</strong>.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -179,7 +179,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>COUNTY</strong> had the most tweets about movies?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>MOVIES</strong>?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -221,7 +221,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about hats.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>HATS</strong>.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -261,7 +261,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>CITY</strong> had the most tweets about hamburgers?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>HAMBURGERS</strong>?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -303,7 +303,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about baseball.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>BASEBALL</strong>.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -343,7 +343,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about music.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>MUSIC</strong>",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -383,7 +383,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about jackets.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>JACKETS</strong>.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -423,7 +423,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>COUNTY</strong> had the most tweets about pizza?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>PIZZA</strong>?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -465,7 +465,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>CITY</strong> had the most tweets about soccer?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>SOCCER</strong>?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -507,7 +507,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about nightlife.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>NIGHTLIFE</strong>.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -547,7 +547,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>CITY</strong> had the most tweets about shoes?",
+							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>SHOES</strong>?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -589,7 +589,7 @@
 							"image": "data/smile.png"
 						},
 												{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about salad.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>SALAD</strong>.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -629,7 +629,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Which <strong>COUNTY</strong> had the most tweets about tennis?",
+							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>TENNIS</strong>?",
 							"input": {
 								"required": false,
 								"autoadvance": false,
