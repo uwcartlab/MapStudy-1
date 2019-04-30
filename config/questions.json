@@ -99,7 +99,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>COFFEE</strong>.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>COFFEE</strong>.</br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -139,7 +139,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>BASKETBALL</strong>.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>BASKETBALL</strong>.</br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -221,7 +221,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>HATS</strong>.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>HATS</strong>.</br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -303,7 +303,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>BASEBALL</strong>.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>BASEBALL</strong>.</br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -343,7 +343,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>MUSIC</strong>",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>MUSIC</strong></br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -383,7 +383,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>JACKETS</strong>.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>JACKETS</strong>.</br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -507,7 +507,7 @@
 							"image": "data/smile.png"
 						},
 						{
-							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>NIGHTLIFE</strong>.",
+							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>NIGHTLIFE</strong>.</br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
@@ -589,7 +589,7 @@
 							"image": "data/smile.png"
 						},
 												{
-							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>SALAD</strong>.",
+							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>SALAD</strong>.</br>1 = highest rank and 3 = lowest rank.",
 							"input": {
 								"required": false,
 								"autoadvance": false,
