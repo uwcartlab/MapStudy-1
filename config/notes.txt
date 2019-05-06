@@ -1,21 +1,22 @@
 Key:
 
-Map 1: chor-_C1_1
-Map 2: chor-_L2_2
-Map 3: chor-_T3_3
-Map 4: chor-_U4_4
-Map 5: dotd-_C2_2
-Map 6: dotd-_L3_4
-Map 7: dotd-_T4_1
-Map 8: dotd-_U1_3
-Map 9: heat-_C3_4
-Map 10: heat-_L4_3
-Map 11: heat-_T1_2
-Map 12: heat-_U2_1
-Map 13: prop-_C4_3
-Map 14: prop-_L1_1
-Map 15: prop-_T2_4
-Map 16: prop-_U3_2
+Map 1: chor-_C1_1, HIKING					
+Map 2: chor-_L2_2, GLOVES
+Map 3: chor-_T3_3, COFFEE
+Map 4: chor-_U4_4, BASKETBALL
+Map 5: dotd-_C2_2, MOVIES
+Map 6: dotd-_L3_4, HATS
+Map 7: dotd-_T4_1, HAMBURGERS
+Map 8: dotd-_U1_3, BASEBALL
+Map 9: heat-_C3_4, MUSIC
+Map 10: heat-_L4_3, JACKETS
+Map 11: heat-_T1_2, PIZZA
+Map 12: heat-_U2_1, SOCCER
+Map 13: prop-_C4_3, NIGHTLIFE
+Map 14: prop-_L1_1, SHOES
+Map 15: prop-_T2_4, SALAD
+Map 16: prop-_U3_2, TENNIS
+
 
 Page 17: Submit page
 Page 18: Thank you page

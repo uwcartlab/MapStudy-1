@@ -7,8 +7,7 @@
 				{
 			          "blocks": [
 						{
-							"title": "MAP 1: Volume of tweets about HIKING",
-							"ask": "Distribution: choro-_C1_1"
+							"title": "Volume of tweets about HIKING"						
 						},
 						{
 							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -49,8 +48,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 2: Volume of tweets about GLOVES",
-							"ask": "Distribution: chor-_L2_2"
+							"title": "Volume of tweets about GLOVES"
 						},
 						{
 							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -91,8 +89,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 3: Volume of tweets about COFFEE",
-							"ask": "Distribution: chor-_T3_3"
+							"title": "Volume of tweets about COFFEE"
 						},
 						{
 							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -131,8 +128,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 4: Volume of tweets about BASKETBALL",
-							"ask": "Distribution: chor-_U4_4"
+							"title": "Volume of tweets about BASKETBALL"
 						},
 						{
 							"ask": "<img src='img/legends/choro.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -171,8 +167,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 5: Volume of tweets about MOVIES",
-							"ask": "Distribution: dotd-_C2_2"
+							"title": "Volume of tweets about MOVIES"
 						},
 						{
 							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -213,8 +208,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 6: Volume of tweets about HATS",
-							"ask": "Distribution: dotd-_L3_4"
+							"title": "Volume of tweets about HATS"
 						},
 						{
 							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -253,8 +247,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 7: Volume of tweets about HAMBURGERS",
-							"ask": "Distribution: dotd-_T4_1"
+							"title": "Volume of tweets about HAMBURGERS"
 						},
 						{
 							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -295,8 +288,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 8: Volume of tweets about BASEBALL",
-							"ask": "Distribution: dotd-_U1_3"
+							"title": "Volume of tweets about BASEBALL"
 						},
 						{
 							"ask": "<img src='img/legends/dot.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -335,8 +327,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 9: Volume of tweets about MUSIC",
-							"ask": "Distribution: heat-_C3_4"
+							"title": "Volume of tweets about MUSIC"
 						},
 						{
 							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -375,8 +366,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 10: Volume of tweets about JACKETS",
-							"ask": "Distribution: heat-_L4_3"
+							"title": "Volume of tweets about JACKETS"
 						},
 						{
 							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -415,8 +405,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 11: Volume of tweets about PIZZA",
-							"ask": "Distribution: heat-_T1_2"
+							"title": "Volume of tweets about PIZZA"
 						},
 						{
 							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -457,8 +446,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 12: Volume of tweets about SOCCER",
-							"ask": "Distribution: heat-_U2_1"
+							"title": "Volume of tweets about SOCCER"
 						},
 						{
 							"ask": "<img src='img/legends/heat.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -499,8 +487,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 13: Volume of tweets about NIGHTLIFE",
-							"ask": "Distribution: prop-_C4_3"
+							"title": "Volume of tweets about NIGHTLIFE"
 						},
 						{
 							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -539,8 +526,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 14: Volume of tweets about SHOES",
-							"ask": "Distribution: prop-_L1_1"
+							"title": "Volume of tweets about SHOES"
 						},
 						{
 							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -581,8 +567,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 15: Volume of tweets about SALAD",
-							"ask": "Distribution: prop-_T2_4"
+							"title": "Volume of tweets about SALAD"
 						},
 						{
 							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
@@ -621,8 +606,7 @@
 				{
 					"blocks": [
 						{
-							"title": "MAP 16: Volume of tweets about TENNIS",
-							"ask": "Distribution: prop-_U3_2"
+							"title": "Volume of tweets about TENNIS"
 						},
 						{
 							"ask": "<img src='img/legends/prop.png' style='max-width: 300px; width: 100%; height: auto;'>",
