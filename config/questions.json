@@ -16,7 +16,7 @@
 						{
 							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>HIKING?</strong>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
@@ -57,7 +57,7 @@
 						{
 							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>GLOVES</strong>?",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
@@ -98,7 +98,7 @@
 						{
 							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>COFFEE</strong>..</br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -137,7 +137,7 @@
 						{
 							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>BASKETBALL</strong>.</br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -176,7 +176,7 @@
 						{
 							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>MOVIES</strong>?",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
@@ -217,7 +217,7 @@
 						{
 							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>HATS</strong>.</br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -256,7 +256,7 @@
 						{
 							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>HAMBURGERS</strong>?",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
@@ -297,7 +297,7 @@
 						{
 							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>BASEBALL</strong>.</br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -336,7 +336,7 @@
 						{
 							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>MUSIC</strong></br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -375,7 +375,7 @@
 						{
 							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>JACKETS</strong>.</br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -414,7 +414,7 @@
 						{
 							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>PIZZA</strong>?",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
@@ -455,12 +455,12 @@
 						{
 							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>SOCCER</strong>?",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
 										{
-											"text": "Hill City"
+											"text": "Hill"
 										},
 										{
 											"text": "Winona"
@@ -496,7 +496,7 @@
 						{
 							"ask": "Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>NIGHTLIFE</strong>.</br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -504,7 +504,7 @@
 										"text": "Leoti"
 									},
 									{
-										"text": "Sharon Springs"
+										"text": "Sharon"
 									},
 									{
 										"text": "Syracuse"
@@ -535,7 +535,7 @@
 						{
 							"ask": "Which <strong>CITY</strong> had the most tweets about <strong>SHOES</strong>?",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
@@ -576,7 +576,7 @@
 												{
 							"ask": "Rank these <strong>COUNTIES</strong> according to their volume of tweets about <strong>SALAD</strong>.</br><i>(1 = highest rank and 3 = lowest rank)</i>",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
@@ -615,7 +615,7 @@
 						{
 							"ask": "Which <strong>COUNTY</strong> had the most tweets about <strong>TENNIS</strong>?",
 							"input": {
-								"required": false,
+								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
@@ -686,7 +686,7 @@
 						          "blocks": [
 									{
 										"title": "Example Map",
-										"ask": "</br>The interactive map to the left demonstrates the basic design and functionality of the maps you will see in the survey, although using silly map symbols. </br></br><strong>Map Interactions</strong></br></br>The interactive map includes three interactive features:</br></br>1. <strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, or using the zoom buttons to change the level of detail (zooming is constrained to only several scales). </br></br>2. <strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area). </br></br>3. <strong>Retrieve</strong> details about the number of tweets at a specific location by clicking on the map.</br></br><i>Try each of these interactions now.</i>"
+										"ask": "</br>The interactive map to the left demonstrates the basic design and functionality of the maps you will see in the survey, although using silly map symbols. </br></br><strong>Map Interactions</strong></br></br>The interactive map includes three interactive features:</br></br>1. <strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, or using the zoom buttons to change the level of detail (zooming is constrained to only two map scales). </br></br>2. <strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area). </br></br>3. <strong>Retrieve</strong> details about the number of tweets at a specific location by clicking on the map.</br></br><i>Try each of these interactions now.</i>"
 									}
 								],
 								"buttons": [
@@ -720,12 +720,12 @@
 							    "blocks": [
 									{
 									"title": "Example Map",
-									"ask": "</br><strong>Example Questions</strong></br></br>The map tasks are timed, so please do not divert your attention when completing the map tasks; the confidence and difficulty questions are not timed, so take your time in answering these follow-up questions. Example questions include: <uL><li>Compare</li><li>Rank</li><li>Confidence</li><li>Difficulty</li></ul><i>Try answering these questions now by interacting with the map.</i> We are not collecting your responses to these example questions, so please take your time to get comfortable with the survey format.</br></br>"
+									"ask": "</br><strong>Example Questions</strong></br></br>The map tasks are <strong><u>timed</u></strong>, so please do <strong><u>not</u></strong> divert your attention when completing the map tasks. The confidence and difficulty questions are not timed, so take your time in answering these follow-up questions. Example questions include: <uL><li>Compare</li><li>Rank</li><li>Confidence</li><li>Difficulty</li></ul><i>Try answering these questions now by interacting with the map.</i> We are <strong><u>not</u></strong> collecting your responses to these example questions, so please take your time to get comfortable with the survey format.</br></br>"
 								},
 								{
-									"ask": "1. <strong>Compare</strong>: Which <strong>CITY</strong> had more tweets about pizza?",
+									"ask": "1. <strong>Compare</strong>: Which <strong>CITY</strong> had more tweets about <strong>PIZZA?</strong>",
 									"input": {
-										"required": false,
+										"required": true,
 										"autoadvance": false,
 										"type": "radios",
 										"options": [
@@ -744,9 +744,9 @@
 									}
 								},
 								{
-									"ask": "<br>2. <strong>Rank:</strong> Rank these <strong>CITIES</strong> according to their volume of tweets about pizza.</br><i>Drag each block to reorder. </br>1 = the highest rank and 3 = lowest rank.</i>",
+									"ask": "<br>2. <strong>Rank:</strong> Rank these <strong>CITIES</strong> according to their volume of tweets about <strong>PIZZA</strong>.</br><i>Drag each block to reorder. </br>(1 = the highest rank and 3 = lowest rank.)</i>",
 									"input": {
-										"required": false,
+										"required": true,
 										"autoadvance": false,
 										"type": "rank",
 										"items": [
@@ -763,9 +763,9 @@
 									}
 								},
 								{
-						              "ask": "<br>3. <strong>Confidence:</strong> On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+						              "ask": "<br>3. <strong>Confidence:</strong> On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						              "input": {
-							                "required": false,
+							                "required": true,
 							                "type": "matrix",
 							                "options": [
 							                  {
@@ -796,9 +796,9 @@
 						              }
 					            },
 					            {
-						              "ask": "<br>4. <strong>Difficulty:</strong> On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br></br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						              "ask": "<br>4. <strong>Difficulty:</strong> On a scale of 1-7, how <strong>EASY</strong> was it to arrive at this answer using the map.</br></br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						              "input": {
-							                "required": false,
+							                "required": true,
 							                "type": "matrix",
 							                "options": [
 							                  {
@@ -860,7 +860,7 @@
 					"blocks": [
 						{
 							"title": "Instructions and Eligibility",
-							"ask": "</br><strong>Thank you for agreeing to participate!</strong></br></br>Maps and geographic information are increasingly common in daily life! You may be familiar with mapping services like Apple Maps, Google Maps, and MapQuest. You also may make use of web maps in social media like Facebook, Foursquare, Instagram, and Twitter. Further, you might have explored more complex interactive maps in popular news outlets like the New York Times and the Washington Post. The purpose of this study is to learn how we should design these maps.</br></br><strong>INSTRUCTIONS</strong></br>In the following survey, you will be shown different web map designs that depict the volume of tweets in Western Kansas. <strong>Twitter</strong> is a social media platform allowing users to submit short messages (i.e., <strong>tweets</strong>) that include a mappable location. The volume of tweets often is used as a proxy for public interest and engagement around different topics (e.g., entertainment, fashion, food, sports). The tweet topic will change from map to map, such that each tweet map pattern you will see is unique.</br></br>The survey has three parts: </br><ul><li><strong>PART 1:</strong> You will be presented with an example map. You will be asked to interact with this map to explore it's functionality. You will not be tested on this map. It is for training purposes.</li><li><strong>PART 2:</strong> You will be presented with 16 different maps and answer questions about map patterns as you interact with the maps. The map tasks <strong>are timed</strong>, so please do not divert your attention when completing the map tasks.</li><li><strong>PART 3:</strong> The survey closes with questions about your preferences, interests, and experiences. You will be compensated after completing the closing background survey.</li></ul>You will be compensated <strong>after</strong> completing these sections and an exit survey!</br></br><strong>ELIGIBILITY</strong></br>Before beginning, please once again review your eligibility for participating in the study: These restrictions greatly impact your responses.</br><ul><li>You must be 18 years of age or older.</li><li>You must be fluent in English.</li><li>You must currently be living in the United States, but not in Kansas due to familiarity with the tested Geography</li><li>You do not have color vision impairment (i.e., are colorblind).</li><li>You must complete the survey on a non-mobile device, such as a laptop or desktop computer. <strong>Completing the experiment on a smartphone or small screen tablet will greatly impact your performance and skew results.<strong></li></ul></br></br>Click “Next” to confirm that you have read the instructions and that you are eligible to participate in the study."
+							"ask": "</br><strong>Thank you for agreeing to participate!</strong></br></br>Maps and geographic information are increasingly common in daily life! You may be familiar with mapping services like Apple Maps, Google Maps, and MapQuest. You also may make use of web maps in social media like Facebook, Foursquare, Instagram, and Twitter. Further, you might have explored more complex interactive maps in popular news outlets like the New York Times and the Washington Post. The purpose of this study is to learn how we should design these maps.</br></br><strong>INSTRUCTIONS</strong></br>In the following survey, you will be shown different web map designs that depict the volume of tweets in Western Kansas. <strong>Twitter</strong> is a social media platform allowing users to submit short messages (i.e., <strong>tweets</strong>) that include a mappable location. The volume of tweets often is used as a proxy for public interest and engagement around different topics (e.g., entertainment, fashion, food, sports). The tweet topic will change from map to map, such that each tweet map pattern you will see is unique.</br></br>The survey has three parts: </br><ul><li><strong>PART 1:</strong> You will be presented with an example map. You will be asked to interact with this map to explore it's functionality. You will <b><u>not</u></b> be tested on this map. It is for training purposes <u>only</u>.</li><li><strong>PART 2:</strong> You will be presented with 16 different maps and answer questions about map patterns as you interact with the maps. The map tasks <strong><u>are timed</u></strong>, so please do not divert your attention when completing the map tasks.</li><li><strong>PART 3:</strong> The survey closes with questions about your preferences, interests, and experiences, as well as an exit background survey.</li></ul>You will be compensated <strong><u>after</u></strong> completing these sections and the exit survey!</br></br><strong>ELIGIBILITY</strong></br>Before beginning, please once again review your eligibility for participating in the study: These restrictions greatly impact your responses.</br><ul><li>You must be 18 years of age or older.</li><li>You must be fluent in English.</li><li>You must currently be living in the United States, but not in Kansas due to familiarity with the tested Geography</li><li>You do not have color vision impairment (i.e., are colorblind).</li><li>You must complete the survey on a non-mobile device, such as a laptop or desktop computer. <strong>Completing the experiment on a smartphone or small screen tablet will greatly impact your performance and skew results.<strong></li></ul></br></br>Click “Next” to confirm that you have read the instructions and that you are eligible to participate in the study."
 						}
 					],
 					"buttons": [
@@ -880,9 +880,9 @@
 						        },
 								{	
 										"title": "Usefulness and Preference Survey",
-						              	"ask": "</br>Rank how <strong>useful</strong> you found the four map designs for completing the map tasks on a scale of 1-7.</br>(<i>1 = Least Useful, 7 = Most Useful</i>)",
+						              	"ask": "</br>Rank how <strong>USEFUL</strong> you found the four map designs for completing the map tasks on a scale of 1-7.</br>(<i>1 = Least Useful, 7 = Most Useful</i>)",
 						              	"input": {
-							                "required": false,
+							                "required": true,
 							                "type": "matrix",
 							                "options": [
 								                  {
@@ -916,9 +916,9 @@
 						              }
 					            },
 					            {	
-						              	"ask": "</br>Rank your personal <strong>preference</strong> of the four map designs regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Preferred, 7 = Most Preferred</i>)",
+						              	"ask": "</br>Rank your personal <strong>PREFERENCE</strong> of the four map designs regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Preferred, 7 = Most Preferred</i>)",
 						              	"input": {
-							                "required": false,
+							                "required": true,
 							                "type": "matrix",
 							                "options": [
 								                  {
@@ -973,9 +973,9 @@
 									"blocks": [
 											{	
 												"title": "</br>Usefulness and Preference Survey",
-								              	"ask": "</br>Rank how <strong>useful</strong> you found the provided interactive features for completing the map tasks on a scale of 1–7.</br>(<i>1 = Least Useful, 7 = Most Useful</i>)",
+								              	"ask": "</br>Rank how <strong>USEFUL</strong> you found the provided interactive features for completing the map tasks on a scale of 1–7.</br>(<i>1 = Least Useful, 7 = Most Useful</i>)",
 								              	"input": {
-									                "required": false,
+									                "required": true,
 									                "type": "matrix",
 									                "options": [
 										                  {
@@ -1008,9 +1008,9 @@
 								              }
 							            },
 							            {	
-								              	"ask": "</br>Rank your personal <strong>preference</strong> of the provided interactive features regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Preferred, 7 = Most Preferred</i>)",
+								              	"ask": "</br>Rank your personal <strong>PREFERENCE</strong> of the provided interactive features regardless of the map tasks on a scale of 1-7.</br>(<i>1 = Least Preferred, 7 = Most Preferred</i>)",
 								              	"input": {
-									                "required": false,
+									                "required": true,
 									                "type": "matrix",
 									                "options": [
 										                  {
@@ -1066,7 +1066,7 @@
 												"title": "</br>Background Survey",
 								              	"ask": "</br>How old are you?",
 								              	"input": {
-									                "required": false,
+									                "required": true,
 												"type": "dropdown",
 													"options": [
 														{
@@ -1117,7 +1117,7 @@
 										{
 											"ask": "</br>What is your gender identity?",
 											"input": {
-												"required": false,
+												"required": true,
 												"type": "radios",
 												"options": [
 													{
@@ -1135,7 +1135,7 @@
 										{
 											"ask": "</br>Do you have corrected vision?",
 											"input": {
-												"required": false,
+												"required": true,
 												"type": "radios",
 												"options": [
 													{
@@ -1151,9 +1151,9 @@
 											}
 										},
 										{
-											"ask": "</br>Do you have color vision impairment (i.e. colorblind)?",
+											"ask": "</br>Do you have color vision impairment (i.e., colorblind)?",
 											"input": {
-												"required": false,
+												"required": true,
 												"type": "radios",
 												"options": [
 													{
@@ -1171,7 +1171,7 @@
 										{
 											"ask": "</br>Is English your first language?",
 											"input": {
-												"required": false,
+												"required": true,
 												"type": "radios",
 												"options": [
 													{
@@ -1186,7 +1186,7 @@
 										{
 											"ask": "</br>Are you fluent in English?",
 											"input": {
-												"required": false,
+												"required": true,
 												"type": "radios",
 												"options": [
 													{
@@ -1213,9 +1213,9 @@
 											"blocks": [
 													{	
 														"title": "</br>Familiarity and Interest Survey",
-										              	"ask": "</br>Please rate your <strong>knowledge</strong> of the following topics on a scale of 1-7:</br>(<i>1 = I do not know anything about this topic, 4 = I have an average understanding of this topic, 7 = I know a lot about this topic</i>)",
+										              	"ask": "</br>Please rate your <strong>KNOWLEDGE</strong> of the following topics on a scale of 1-7:</br>(<i>1 = I do not know anything about this topic, 4 = I have an average understanding of this topic, 7 = I know a lot about this topic</i>)",
 										              	"input": {
-											                "required": false,
+											                "required": true,
 											                "type": "matrix",
 											                "options": [
 												                  {
@@ -1251,9 +1251,9 @@
 										              }
 									            },
 									            {	
-										              	"ask": "</br>Please rate your <strong>interest</strong> of the following topics on a scale of 1-7:</br>(<i>1 = I do not know anything about this topic, 4 = I have an average understanding of this topic, 7 = I know a lot about this topic</i>)",
+										              	"ask": "</br>Please rate your <strong>INTEREST</strong> of the following topics on a scale of 1-7:</br>(<i>1 = I do not know anything about this topic, 4 = I have an average understanding of this topic, 7 = I know a lot about this topic</i>)",
 										              	"input": {
-											                "required": false,
+											                "required": true,
 											                "type": "matrix",
 											                "options": [
 												                  {
@@ -1291,7 +1291,7 @@
 									            {
 													"ask": "</br>How frequently do you participate in research studies on Mechanical Turk?",
 													"input": {
-														"required": false,
+														"required": true,
 														"type": "radios",
 														"options": [
 															{
@@ -1327,9 +1327,9 @@
 											"blocks": [
 									            {
 									            	"title": "Technology Survey",
-													"ask": "</br>What kind of <strong>computing device </strong>did you use to view and complete the survey? ",
+													"ask": "</br>What kind of <strong>COMPUTING DEVICE</strong> did you use to view and complete the survey? ",
 													"input": {
-														"required": false,
+														"required": true,
 														"type": "radios",
 														"options": [
 															{
@@ -1351,9 +1351,9 @@
 													}
 												},
 												{
-													"ask": "</br>What best describes the manner you interacted with the map and submitted your survey responses?",
+													"ask": "</br>What best describes the manner you <strong>INTERACTED</strong> with the map and submitted your survey responses?",
 													"input": {
-														"required": false,
+														"required": true,
 														"type": "radios",
 														"options": [
 															{
@@ -1372,9 +1372,9 @@
 													}
 												},
 												{
-													"ask": "</br>Did you divert your attention (e.g., open another website, check your phone) in any way when completing the survey? </br><i>Note: this has no bearing on compensation</i>",
+													"ask": "</br>Did you <strong>DIVERT</strong> your attention (e.g., open another website, check your phone) in any way when completing the survey? </br><i>Note: this has no bearing on compensation</i>",
 													"input": {
-														"required": false,
+														"required": true,
 														"type": "radios",
 														"options": [
 															{
@@ -1405,7 +1405,7 @@
 					"blocks": [
 						{
 							"title": "PART 1: Practice Map",
-							"ask": "</br>Again, thank you for agreeing to participate in this study! </br></br>In Part 1, you will presented with a practice map. In this section, you will learn how to: <strong>interact with the map, review legends, complete map tasks, and answer survey questions</strong>."
+							"ask": "</br>Again, thank you for agreeing to participate in this study! </br></br>In Part 1, you will presented with a practice map. In this section, you will learn how to: <strong>interact with the map, review legends, complete map tasks,</strong> and <strong>answer survey questions</strong>. Your responses are <strong><u>not</u></strong> timed."
 						}
 					],
 					"buttons": [
@@ -1422,7 +1422,7 @@
 					"blocks": [
 						{
 							"title": "PART 2: Maps",
-							"ask": "</br>Congrats! You have just completed the practice map in Part 1.</br></br>In this next section, you will be presented with 16 different maps and answer questions about map patterns as you interact with the maps. </br></br>The map tasks are timed, so please do not divert your attention when completing the map tasks."
+							"ask": "</br>Congrats! You have just completed the practice map in Part 1.</br></br>In this next section, you will be presented with 16 different maps and answer questions about map patterns as you interact with the maps. </br></br>The map tasks are <strong><u>timed</u></strong>, so please do not divert your attention when completing the map tasks."
 						}
 					],
 					"buttons": [
@@ -1458,7 +1458,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -1491,7 +1491,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -1538,7 +1538,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -1571,7 +1571,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -1618,7 +1618,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -1651,7 +1651,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -1698,7 +1698,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -1731,7 +1731,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -1778,7 +1778,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -1811,7 +1811,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -1858,7 +1858,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -1891,7 +1891,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -1938,7 +1938,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -1971,7 +1971,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2018,7 +2018,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2051,7 +2051,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2098,7 +2098,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2131,7 +2131,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2178,7 +2178,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2211,7 +2211,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2258,7 +2258,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2291,7 +2291,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2338,7 +2338,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2371,7 +2371,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2418,7 +2418,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2451,7 +2451,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2498,7 +2498,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2531,7 +2531,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2578,7 +2578,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2611,7 +2611,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
@@ -2658,7 +2658,7 @@
 							"title": "Confidence and Difficulty Survey",
 						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
-							    "required": false,
+							    "required": true,
 							    "type": "matrix",
 							    "options": [
 							        {
@@ -2691,7 +2691,7 @@
 					    {
 						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
-							"required": false,
+							"required": true,
 							"type": "matrix",
 							"options": [
 							        {
