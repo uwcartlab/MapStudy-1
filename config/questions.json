@@ -1455,8 +1455,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -1489,7 +1489,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -1535,8 +1535,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -1569,7 +1569,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -1615,8 +1615,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -1649,7 +1649,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -1695,8 +1695,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -1729,7 +1729,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -1775,8 +1775,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -1809,7 +1809,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -1855,8 +1855,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -1889,7 +1889,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -1935,8 +1935,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -1969,7 +1969,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2015,8 +2015,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2049,7 +2049,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2095,8 +2095,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2129,7 +2129,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2175,8 +2175,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2209,7 +2209,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2255,8 +2255,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2289,7 +2289,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2335,8 +2335,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2369,7 +2369,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2415,8 +2415,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2449,7 +2449,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2495,8 +2495,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2529,7 +2529,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2575,8 +2575,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2609,7 +2609,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
@@ -2655,8 +2655,8 @@
 				{
 					"blocks": [
 						{	
-							"title": "Confidence and Difficulty Survey",
-						    "ask": "</br>On a scale of 1-7, how <strong>confident</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
+							"title": "CONFIDENCE and DIFFICULTY Survey",
+						    "ask": "</br>On a scale of 1-7, how <strong>CONFIDENT</strong> are you in your answer. </br>(<i>1 = Not Confident, 7 = Very Confident</i>)",
 						    "input": {
 							    "required": true,
 							    "type": "matrix",
@@ -2689,7 +2689,7 @@
 						    }
 					    },
 					    {
-						    "ask": "</br></br>On a scale of 1-7, how <strong>easy</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
+						    "ask": "</br></br>On a scale of 1-7, how <strong>DIFFICULT</strong> was it to arrive at this answer using the map.</br>(<i>1 = Very Difficult, 7 = Very Easy</i>)",
 						    "input": {
 							"required": true,
 							"type": "matrix",
