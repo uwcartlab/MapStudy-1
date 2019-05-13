@@ -2727,6 +2727,190 @@
 					]
 				}
 			]
+		},
+		{
+		  "page": 48,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 1!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY372E</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
+		},
+		{
+		  "page": 49,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 2!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY37M3</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
+		},
+		{
+		  "page": 50,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 3!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY389M</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
+		},
+		{
+		  "page": 51,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 4!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY934M</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
+		},
+		{
+		  "page": 52,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 5!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY244M</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
+		},
+		{
+		  "page": 53,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 6!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY378A</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
+		},
+		{
+		  "page": 54,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 7!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY394J</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
+		},
+		{
+		  "page": 55,
+		  "fullpage": true,
+		  "sets": [
+		            {
+		              "blocks": [
+		                {
+		                  "title": "Thank you for participating in Map Study 8!",
+		                  "ask": "Your response has been recorded. To receive your payment, please enter the following code in the submission box on Turk."
+		                  },
+		                {
+		                  "ask": "<strong>Confirmation Code: XY325P</strong>"
+		                },
+		                {
+		                  "ask": "We will send your payment within one week."
+		                },
+		                {
+		                  "ask": "Please close your browser to exit."
+		                }
+		              ]
+		            }
+		          ]
 		}
 
 	]
