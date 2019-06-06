@@ -725,3 +725,4 @@ document.on('ready', function(){
 		readycount++;
 	}
 });
+})();
